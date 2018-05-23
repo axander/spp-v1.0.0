@@ -1,0 +1,219 @@
+{
+	"status":"successfull",
+	"reason":"successfull",
+	"data":{
+		"collection":[
+			{	
+				"title":{
+					"es":"Ejemplo 3",
+					"en":"Example 3"
+				},
+				"subtitle":{
+					"es":"Color de fondo sin imagen, mostrando player con episode.",
+					"en":"Backgroun color, no image. Routing to a episode player."
+				},
+				"buttons":[
+					{	
+						"externalLink":"",
+						"route":"",
+						"episode":{
+							"id":"XXXXX0"
+						},
+						"text":{
+							"es":"Escuchar ahora",
+							"en":"Play now"
+						}
+					}
+				],
+				"style":{
+					"background":"blue",
+					"background-image":""
+				}
+			},
+			{
+				"title":{
+					"es":"Ejemplo 1",
+					"en":"Example 1"
+				},
+				"subtitle":{
+					"es":"Color de fondo sin imagen, enrutando al listado de episodes de un programa.",
+					"en":"Backgroun color, no image. Routing to a program episode list."
+				},
+				"buttons":[
+					{	
+						"externalLink":"",
+						"route":"episode/FORBESDAILY/Nombre del programa",
+						"episode":null,
+						"text":{
+							"es":"Ir a episode",
+							"en":"Get the episode"
+						}
+					}
+				],
+				"style":{
+					"background":"red",
+					"background-image":""
+				}
+			},
+			{	
+				"title":{
+					"es":"Ejemplo 2",
+					"en":"Example 2"
+				},
+				"subtitle":{
+					"es":"Imagen de fondo con link a url externa.",
+					"en":"Background Image and external Link"
+				},
+				"buttons":[
+					{	
+						"externalLink":"https://mauiwhalefestival.org",
+						"route":"",
+						"episode":null,
+						"text":{
+							"es":"Ir a la web",
+							"en":"Visit web"
+						}
+					}
+				],
+				"style":{
+					"background":"blue",
+					"background-image":"url(https://mauiwhalefestival.org/sites/mauiwhalefestival.org/files/imagecache/homepage_slide/MWF-2018_Website_Homepage-Banner-web.jpg)"
+				}
+			},
+			{	
+				"title":{
+					"es":"Título en Castellano",
+					"en":"Título en inglés"
+				},
+				"subtitle":{
+					"es":"SubTítulo en Castellano",
+					"en":"SubTítulo en inglés"
+				},
+				"buttons":[
+					{	
+						"externalLink":"https://mauiwhalefestival.org",
+						"route":"",
+						"episode":null,
+						"text":{
+							"es":"Ir a web",
+							"en":"Go Link"
+						}
+					},
+					{	
+						"externalLink":"",
+						"route":"episode/FORBESDAILY/Nombre del programa",
+						"episode":null,
+						"text":{
+							"es":"Ir a contenido",
+							"en":"Get the content"
+						}
+					}
+				],
+				"style":{
+					"background":"",
+					"background-image":"url(http://yourshot.nationalgeographic.com/u/fQYSUbVfts-T7odkrFJckdiFeHvab0GWOfzhj7tYdC0uglagsDQj7Qij_WMs1yiPiHoBvJoB9wzaXIaKKw6NCjrra0ZohLV4TKlAhdymm5Itun_41jU3ilG8iQgTrN4UHLadhlXzYSgXAlRVXJfH5jGMt_beuNjG6xJoT97yLqvNDDoNc_ISqlRfeBzds1TGFleBZ7OD2AsqxBlJtyIiesDm/)"
+				}
+			},
+			{	
+				"title":{
+					"es":"Título en Castellano",
+					"en":"Título en inglés"
+				},
+				"subtitle":{
+					"es":"SubTítulo en Castellano",
+					"en":"SubTítulo en inglés"
+				},
+				"buttons":[
+					{	
+						"externalLink":"",
+						"route":"favourites",
+						"episode":null,
+						"text":{
+							"es":"Ir a contenido",
+							"en":"Get the content"
+						}
+					}
+				],
+				"style":{
+					"background":"",
+					"background-image":"url(http://yourshot.nationalgeographic.com/u/fQYSUbVfts-T7odkrFJckdiFeHvab0GWOfzhj7tYdC0uglagsDQi-5dzrH-aVjSaZjwLRVS9TeEgCnSdTLx04bqwof7scDe0pez8XsGAkVi-Z4FdpLn5-eJIv-s9_e9DuaupLabv3XZTTHacYf3gl3UCafPUi01vTQYfGaeOSkp1fY_7U24jzLnH8t1komDsfOOQMs-mXFaASqlCffW5LAw_/)"
+				}
+			},
+			{	
+				"title":{
+					"es":"Título en Castellano",
+					"en":"Título en inglés"
+				},
+				"subtitle":{
+					"es":"SubTítulo en Castellano",
+					"en":"SubTítulo en inglés"
+				},
+				"buttons":[
+					{	
+						"externalLink":"",
+						"route":"favourites",
+						"episode":null,
+						"text":{
+							"es":"Ir a contenido",
+							"en":"Get the content"
+						}
+					}
+				],
+				"style":{
+					"background":"",
+					"background-image":"url(https://mauiwhalefestival.org/sites/mauiwhalefestival.org/files/imagecache/homepage_slide/MWF-2018_Website_Homepage-Banner-web.jpg)"
+				}
+			},
+			{	
+				"title":{
+					"es":"Título en Castellano",
+					"en":"Título en inglés"
+				},
+				"subtitle":{
+					"es":"SubTítulo en Castellano",
+					"en":"SubTítulo en inglés"
+				},
+				"buttons":[
+					{	
+						"externalLink":"",
+						"route":"favourites",
+						"episode":null,
+						"text":{
+							"es":"Ir a contenido",
+							"en":"Get the content"
+						}
+					}
+				],
+				"style":{
+					"background":"",
+					"background-image":"url(https://d3jkudlc7u70kh.cloudfront.net/amazing-blue-whale-fact.jpg)"
+				}
+			},
+			{	
+				"title":{
+					"es":"Título en Castellano",
+					"en":"Título en inglés"
+				},
+				"subtitle":{
+					"es":"SubTítulo en Castellano",
+					"en":"SubTítulo en inglés"
+				},
+				"buttons":[
+					{	
+						"externalLink":"",
+						"route":"favourites",
+						"episode":null,
+						"text":{
+							"es":"Ir a contenido",
+							"en":"Get the content"
+						}
+					}
+				],
+				"style":{
+					"background":"",
+					"background-image":"url(https://d3jkudlc7u70kh.cloudfront.net/fun-whale-breaching-fact.jpg)"
+				}
+			}
+		]
+	}
+}

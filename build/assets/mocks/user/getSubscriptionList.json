@@ -1,0 +1,55 @@
+{
+	"status":"successfull",
+	"reason":"successfull",
+	"data":{
+		"type":"Premium",
+		"next":12121212,
+		"collection":[
+			{
+				"id":"XXXXX0",
+				"date":1212121212,
+				"description":"Serv. Premium",
+				"period":{
+					"init":121212,
+					"end":121212
+				},
+				"method":"Visa...3465",
+				"subtotal":{
+					"amount":6.30,
+					"iva":1.39
+				},
+				"total":8.30
+			},
+			{
+				"id":"XXXXX0",
+				"date":1212121212,
+				"description":"Serv. Premium",
+				"period":{
+					"init":121212,
+					"end":121212
+				},
+				"method":"Visa...3465",
+				"subtotal":{
+					"amount":6.30,
+					"iva":1.39
+				},
+				"total":8.30
+			},
+			{
+				"id":"XXXXX0",
+				"date":1212121212,
+				"description":"Serv. Premium",
+				"period":{
+					"init":121212,
+					"end":121212
+				},
+				"method":"Visa...3465",
+				"subtotal":{
+					"amount":6.30,
+					"iva":1.39
+				},
+				"total":8.30
+			}
+		]
+	}
+}

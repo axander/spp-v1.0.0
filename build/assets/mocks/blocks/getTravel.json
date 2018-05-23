@@ -1,0 +1,199 @@
+{
+	"status":"successfull",
+	"reason":"successfull",
+	"perPhase":10,
+	"data":{
+		"title":{
+			"es":"Para un viaje diferente",
+			"en":"Enjoy your travels"
+		},
+		"style":{
+			"image":"https://www.popsci.com/sites/popsci.com/files/styles/655_1x_/public/images/2017/04/humpback-79854_1920.jpg?itok=NxMSYLC7&fc=50,50)"
+		},
+		"collection":[
+			{
+				"id":"XXXXX1",
+				"position":1,
+				"origen":{
+					"channel":{
+						"id":"SP13NM2D31",
+						"info":{
+							"likes":32,
+							"comments":234,
+							"date":"24 sem",
+							"played":"345"
+						},
+						"name":{
+							"es":"SPAINMEDIA",
+							"en":"SPAINMEDIA"
+						},
+						"desc":{
+							"es":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",	
+							"en":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."	
+						},
+						"image":"https://source.unsplash.com/2073x696/?nature",
+						"type":"public"
+					},
+					"podcast":{
+						"id":"FORBESDAILY",
+						"info":{
+							"likes":32,
+							"comments":234,
+							"date":"24 sem",
+							"played":"345"
+						},
+						"name":{
+							"es":"Spainmedia Lab",
+							"en":"Spainmedia Lab"
+						},
+						"desc":{
+							"es":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",	
+							"en":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."	
+						},
+						"image":"https://source.unsplash.com/2073x696/?nature",
+						"type":"public"
+					}
+				},
+				"info":{
+					"likes":32,
+					"comments":234,
+					"date":"24 sem",
+					"played":"345"
+				},
+				"name":{
+					"es":"VIOLENCIA, MAFIA Y TRÁFICO DE MUJERES",
+					"en":"VIOLENCIA, MAFIA Y TRÁFICO DE MUJERES"
+				},
+				"desc":{
+					"es":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",	
+					"en":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."	
+				},
+				"source":"https://ia800304.us.archive.org/20/items/OTRR_Gunsmoke_Singles/Gunsmoke_52-04-26_001_Billy_the_Kid.mp3",
+				"image":"https://source.unsplash.com/2073x696/?nature",
+				"type":"invited"
+			},
+			{
+				"id":"XXXXX2",
+				"position":12,
+				"origen":{
+					"channel":{
+						"id":"SP13NM2D31",
+						"info":{
+							"likes":32,
+							"comments":234,
+							"date":"24 sem",
+							"played":"345"
+						},
+						"name":{
+							"es":"SPAINMEDIA",
+							"en":"SPAINMEDIA"
+						},
+						"desc":{
+							"es":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",	
+							"en":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."	
+						},
+						"image":"https://source.unsplash.com/2073x696/?nature",
+						"type":"public"
+					},
+					"podcast":{
+						"id":"FORBESDAILY",
+						"info":{
+							"likes":32,
+							"comments":234,
+							"date":"24 sem",
+							"played":"345"
+						},
+						"name":{
+							"es":"Spainmedia Lab",
+							"en":"Spainmedia Lab"
+						},
+						"desc":{
+							"es":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",	
+							"en":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."	
+						},
+						"image":"https://source.unsplash.com/2073x696/?nature",
+						"type":"public"
+					}
+				},
+				"info":{
+					"likes":32,
+					"comments":234,
+					"date":"24 sem",
+					"played":"345"
+				},
+				"name":{
+					"es":"LA BURBUJA MUNDIAL DEL BITCOIN",
+					"en":"LA BURBUJA MUNDIAL DEL BITCOIN"
+				},
+				"desc":{
+					"es":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",	
+					"en":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."	
+				},
+				"source":"https://ia800304.us.archive.org/20/items/OTRR_Gunsmoke_Singles/Gunsmoke_52-04-26_001_Billy_the_Kid.mp3",
+				"image":"https://source.unsplash.com/2073x696/?nature",
+				"type":"premium"
+			},
+			{
+				"id":"XXXXX0",
+				"position":30,
+				"origen":{
+					"channel":{
+						"id":"SP13NM2D31",
+						"info":{
+							"likes":32,
+							"comments":234,
+							"date":"24 sem",
+							"played":"345"
+						},
+						"name":{
+							"es":"SPAINMEDIA",
+							"en":"SPAINMEDIA"
+						},
+						"desc":{
+							"es":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",	
+							"en":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."	
+						},
+						"image":"https://source.unsplash.com/2073x696/?nature",
+						"type":"public"
+					},
+					"podcast":{
+						"id":"FORBESDAILY",
+						"info":{
+							"likes":32,
+							"comments":234,
+							"date":"24 sem",
+							"played":"345"
+						},
+						"name":{
+							"es":"Spainmedia Lab",
+							"en":"Spainmedia Lab"
+						},
+						"desc":{
+							"es":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",	
+							"en":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."	
+						},
+						"image":"https://source.unsplash.com/2073x696/?nature",
+						"type":"public"
+					}
+				},
+				"info":{
+					"likes":32,
+					"comments":234,
+					"date":"24 sem",
+					"played":"345"
+				},
+				"name":{
+					"es":"TONI NADAL: ‘EL ESFUERZO DIARIO, EL QUERER SER LOS MEJORES, ES LO QUE ME HA HECHO FELIZ’",
+					"en":"TONI NADAL: ‘EL ESFUERZO DIARIO, EL QUERER SER LOS MEJORES, ES LO QUE ME HA HECHO FELIZ’"
+				},
+				"desc":{
+					"es":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",	
+					"en":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."	
+				},
+				"source":"https://ia802508.us.archive.org/5/items/testmp3testfile/mpthreetest.mp3",
+				"image":"https://source.unsplash.com/2073x696/?nature",
+				"type":"public"
+			}
+		]
+	}
+}

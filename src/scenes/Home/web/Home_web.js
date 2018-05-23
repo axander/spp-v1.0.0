@@ -86,10 +86,10 @@ class Home_web extends React.Component {
             {Filtered.map(p => {
               switch(p.from){
                   case 'scenes':
-                    Component = require('scenes/'+p.path).default;
+                    Component = require('../../../scenes/'+p.path).default;
                   break;
                   case 'blocks':
-                    Component = require('blocks/'+p.path).default;
+                    Component = require('../../../blocks/'+p.path).default;
                   break;
                   default:
                   break;
@@ -103,10 +103,10 @@ class Home_web extends React.Component {
             {data.schemma.scenes.map(p => {
               switch(p.from){
                   case 'scenes':
-                    Component = require('scenes/'+p.path).default;
+                    Component = require('../../../scenes/'+p.path).default;
                   break;
                   case 'blocks':
-                    Component = require('blocks/'+p.path).default;
+                    Component = require('../../../blocks/'+p.path).default;
                   break;
                   default:
                   break;

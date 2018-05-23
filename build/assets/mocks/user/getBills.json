@@ -1,0 +1,29 @@
+{
+	"status":"successfull",
+	"reason":"successfull",
+	"data":{
+		"type":{
+			"card":"Visa ...5674"
+		},
+		"collection":[
+			{
+				"id":"XXXXX0",
+				"date":1212121212,
+				"number":"0192512",
+				"amount":"8,00€"
+			},
+			{
+				"id":"XXXXX0",
+				"date":1212121212,
+				"number":"0192512",
+				"amount":"8,00€"
+			},
+			{
+				"id":"XXXXX0",
+				"date":1212121212,
+				"number":"0192512",
+				"amount":"8,00€"
+			}
+		]
+	}
+}

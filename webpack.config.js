@@ -31,7 +31,7 @@ module.exports = {
 	},
 	entry: [
 		require.resolve('react-dev-utils/webpackHotDevClient'),
-		path.resolve('src/index.jsx'),
+		path.resolve('./src/index.jsx'),
 	],
 	output: {
 		path: path.resolve('build'),

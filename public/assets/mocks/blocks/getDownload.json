@@ -1,0 +1,40 @@
+{
+	"status":"successfull",
+	"reason":"successfull",
+	"data":{
+		"download":{
+			"title":{
+				"es":"Donde y cuando quieras",
+				"en":"Where and when you decide"
+			},
+			"subtitle":{
+				"es":"Descarga nuestra App y escucha los mejores Podcasts.",
+				"en":"Descarga nuestra App y escucha los mejores Podcasts."
+			},
+			"style":{
+				"background-image": "url('./assets/images/04.png'), url('./assets/images/03.png')"
+			}
+		},
+		"subscription":{
+			"externalLink":"",
+			"route":"register",
+			"title":{
+				"es":"Sin límites",
+				"en":"No limits"
+			},
+			"subtitle":{
+				"es":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris feugiat libero.",
+				"en":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris feugiat libero."
+			},
+			"btnText":{
+				"es":"Hazte Premium",
+				"en":"Go Premium"
+			},
+			"style":{
+				"background":"red",
+				"background-image":""
+			}
+		}
+		
+	}
+}

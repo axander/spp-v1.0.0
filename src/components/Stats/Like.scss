@@ -1,0 +1,15 @@
+.like{
+	.icon-thumbs-up{
+		cursor:pointer;
+		margin-left:4px;
+		margin-right:4px;
+		position: relative;
+    	top: -1px;
+	}
+	.icon-thumbs-up:hover{
+		opacity:.5;
+	}
+	.icon-thumbs-up-red{
+		color:red;
+	}
+}

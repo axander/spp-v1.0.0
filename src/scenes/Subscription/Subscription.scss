@@ -1,0 +1,301 @@
+.subscription{
+	.basic{
+		text-align:center;
+	}
+	.subscription_pb_premium{
+		cursor:pointer;
+		bottom: 0;
+	    display: inline-block;
+	    width: 200px;
+	    cursor: pointer;
+	    margin-top: 40px;
+	    padding: 15px;
+	    border-radius: 30px;
+	    text-align: center;
+	    font-size: 20px;
+	    color: #fff;
+	    background: #67b511;
+	    -webkit-transition: background .5s ease;
+	    transition: background .5s ease;
+	}
+	.subscription_pb_premium:hover{
+		background: #168d40!important;
+	}
+	[class*="row"],[class*="col-"] {
+		padding:0;
+		margin:0;
+		padding-top:10px;
+		padding-bottom:10px;
+   	}
+	text-align:left;
+	color:#fff;
+	h1{
+		font-family: AlfaSlabOne;
+		font-size: 50px;
+		font-weight: normal;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: 1;
+		letter-spacing: 2px;
+		text-align: center;
+		color: #ffffff;
+	}
+	.subscription_data{
+		.invPrem{
+			width: auto !important;
+			>div{
+				display: inline-block;
+				margin-right:20px;
+			}
+			a {
+				display:inline-block;
+				img{
+					margin-top: -20px;
+    				position: absolute;
+				}
+			}
+		}
+		.invPrem .subscription_data_rot , .invPrem .subscription_data_value{
+			text-align:left !important;
+		}
+		.subscription_data_rot{
+			font-family: Avenir;
+			font-size: 20px;
+			font-weight: 900;
+			font-style: normal;
+			font-stretch: normal;
+			line-height: 1.5;
+			letter-spacing: normal;
+			color: #ffffff;
+			text-align: center;
+		}
+		.subscription_data_value{
+			font-family: Avenir;
+			font-size: 24px;
+			font-weight: normal;
+			font-style: normal;
+			font-stretch: normal;
+			line-height: 1.25;
+			letter-spacing: normal;
+			color: #d0d0d0;
+			text-align: center;
+		}
+		.subscription_data_type{
+			font-family: Avenir;
+			font-size: 20px;
+			font-weight: normal;
+			font-style: normal;
+			font-stretch: normal;
+			line-height: 1.5;
+			letter-spacing: normal;
+			color: #d0d0d0;
+		  	.subscription_data_type_modify{
+		  		text-align:right;
+		  	}
+		}
+	}
+	.subscription_basic_desc{
+		font-family: Avenir;
+  		font-size: 24px;
+  		font-weight: normal;
+  		font-style: normal;
+  		font-stretch: normal;
+  		line-height: 1.25;
+  		letter-spacing: normal;
+  		text-align: center;
+  		color: #d0d0d0;
+	}
+	.subscription_basic_op{
+		font-family: Avenir;
+		font-size: 20px;
+		font-weight: 900;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: 1.5;
+		letter-spacing: normal;
+		text-align: center;
+		color: #ffffff;
+	}
+	.subscription_basic_activate{
+		text-align: center;
+	    display: inline-block;
+	    margin: 10px;
+	    margin-bottom: 100px;
+	}
+	.subscription_list_rot{
+		padding-top:10px;
+		padding-bottom:20px;
+		font-family: Avenir;
+		font-size: 20px;
+		font-weight: 900;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: 1.5;
+		letter-spacing: normal;
+		color: #ffffff;
+		border-bottom:1px solid #444;
+	}
+	.balls{
+			display:none;
+	}
+	.subscription_list_container{
+
+		.subscription_list{
+			width:100%;
+			.subscription_list_tabs{
+				font-family: Avenir;
+				font-size: 20px;
+				font-weight: 900;
+				font-style: normal;
+				font-stretch: normal;
+				line-height: 1.5;
+				letter-spacing: normal;
+				color: #ffffff;
+				border-bottom:1px solid #444;
+				>div:nth-child(6){
+					text-align:right
+				}
+			}
+			.subscription_list_item{
+				>div:nth-child(6){
+					text-align:right
+				}
+				font-family: Avenir;
+				font-size: 16px;
+				font-weight: normal;
+				font-style: normal;
+				font-stretch: normal;
+				line-height: 1.5;
+				letter-spacing: normal;
+				color: #d0d0d0;
+				.singleTabLabel{
+					display:none;
+				}
+			}.subscription_list_item:last-child{
+				padding-bottom:50px;
+			}
+		}
+	}
+}
+@media screen and (max-width: 992px){
+    .subscription{
+    	.basic{
+    		margin-bottom: 100px !important;
+    		margin-top: -100px !important;
+    	}
+    	margin-top: 20px!important;
+		[class*="row"],[class*="col-"] {
+			padding:0;
+			margin:0;
+			padding-top:10px;
+			padding-bottom:10px;
+			text-align: center !important;
+	   	}
+		
+		h1{
+			font-family: AlfaSlabOne;
+			font-size: 36px;
+			font-weight: normal;
+			font-style: normal;
+			font-stretch: normal;
+			line-height: 1.14;
+			letter-spacing: 1.4px;
+			text-align: center;
+			color: #ffffff;
+			white-space: normal;
+    		word-break: break-word;
+		}
+		.subscription_data{
+			.invPrem{
+				width:100% !important;
+				>div{
+					margin-right:0;
+				}
+				a {
+					display:block;
+					img{
+						margin-top: 20px;
+    					position: relative;
+					}
+				}
+			}
+			.invPrem .subscription_data_rot,.invPrem .subscription_data_value {
+				text-align:center !important;
+			}
+			.subscription_data_rot{
+				text-align: center;
+			}
+			.subscription_data_value{
+				text-align: center;
+			}
+			.subscription_data_type{
+			  	.subscription_data_type_modify{
+			  		
+			  	}
+			}
+		}
+		.subscription_basic_desc{
+			padding-left:10px;
+			padding-right:10px;
+		}
+		.subscription_basic_op{
+			
+		}
+		.subscription_basic_activate{
+		    margin-bottom: 0;
+			input{
+
+			}
+		}
+		.subscription_list_rot{
+			text-align: center;
+		}
+		.balls{
+			display:block;
+		}
+		.subscription_list_container{
+			position: relative;
+		    overflow: hidden;
+		    height: 340px;
+		    width: 100vw;
+			.subscription_list{
+				position: absolute;
+			    left: 0;
+			    display: table;
+			    table-layout: fixed;
+			    margin-top: 0!important;
+			    -webkit-transition: all .5s ease;
+			    transition: all .5s ease;
+				.subscription_list_tabs{
+					display:none;
+					>div:nth-child(6){
+						
+					}
+				}
+				.subscription_list_item{
+					display: table-cell;
+				    width: 100vw;
+				    padding: 0!important;
+				    font-family: Avenir;
+				    font-size: 20px;
+				    font-weight: 400;
+				    font-style: normal;
+				    font-stretch: normal;
+				    line-height: 1.5;
+				    letter-spacing: normal;
+				    color: #d0d0d0;
+					>div:nth-child(6){
+						
+					}
+					.singleTabLabel{
+						display:block;
+						color:#fff;
+					}
+					
+				}.subscription_list_item:last-child{
+					
+				}
+			}
+		}
+	}
+}

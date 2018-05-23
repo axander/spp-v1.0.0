@@ -1,0 +1,103 @@
+.paymentPremium{
+	width:50%;
+	padding-right:20px;
+	padding-left:20px;
+	display: inline-block;
+	form{
+		>div >div{
+			padding:5px;
+		}
+	}
+	.payment_register_type{
+		cursor:pointer;
+		>div{
+			display:inline-block;
+		}
+		.payment_register_item_selector{
+			width:36px;
+			height:36px;
+			border-radius:36px;
+			background-color: #292929;
+			margin-right: 20px;
+			padding: 9px;
+			.payment_register_item_selector_selected{
+				width:18px;
+				height:18px;
+				border-radius:18px;
+				background-color: #4a90e2;
+			}
+		}
+		.payment_register_item_rot{
+			position: relative;
+    		top: -14px;
+			/*font-family: Avenir;*/
+			font-size: 20px;
+			font-weight: normal;
+			font-style: normal;
+			font-stretch: normal;
+			line-height: 1.5;
+			letter-spacing: normal;
+			color: #ffffff;
+		}
+	}
+	.payment_register_type:hover{
+		opacity:.5;
+	}
+	input[type=password], input[type=text] {
+	    height: 60px;
+	    width: 100%;
+  		border-radius: 4px;
+  		background-color: #e3e3e3;
+	    margin: 0;
+	    border: none;
+	    padding: 22px!important;
+	    font: inherit;
+	    outline: inherit!important;
+	}
+	.payment_input_50_1{
+	 	width:50%;
+	 	display: inline-block;
+	}
+	.payment_input_50_2{
+	 	width:50%;
+	 	display: inline-block;
+	 	padding-left: 5px;
+	}
+}
+
+@media screen and (max-width: 992px){
+    .paymentPremium{
+		width:100%;
+		.payment_finalize{
+			float: none !important;
+			display:inline-block;
+			margin-top:30px !important;
+		}
+		.payment_cancel{
+			float: none !important;
+			margin-top:30px !important;
+		}
+		.payment_register_type{
+			cursor:pointer;
+			.payment_register_item_selector{
+				display:inline-block;
+				width:36px;
+				height:36px;
+				border-radius:36px;
+				background-color: #292929;
+				margin-right: 0px;
+				padding: 9px;
+				margin-bottom: 20px;
+				.payment_register_item_selector_selected{
+					width:18px;
+					height:18px;
+					border-radius:18px;
+					background-color: #4a90e2;
+				}
+			}
+			.payment_register_item_rot{
+				display: block;
+			}
+		}
+	}
+}

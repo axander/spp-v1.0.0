@@ -1,0 +1,118 @@
+.register_container{
+	.register_container_rot{
+	  font-family: 'AlfaSlabOne';
+	  font-size: 50px;
+	  font-weight: normal;
+	  font-style: normal;
+	  font-stretch: normal;
+	  line-height: 1;
+	  letter-spacing: 2px;
+	  text-align: center;
+	  color: #ffffff;
+	}
+	.register_container_descriptor{
+		padding-left:25%;
+		padding-right:25%;
+		/*font-family: Avenir;*/
+	  	font-size: 20px;
+		font-weight: normal;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: 1.5;
+		letter-spacing: normal;
+		text-align: center;
+		color: #a5a5a5;
+		text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+	}
+	.register_container_descriptor2{
+		padding-left:25%;
+		padding-right:25%;
+		/*font-family: Avenir;*/
+	  	font-size: 16px;
+		font-weight: normal;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: 1.5;
+		letter-spacing: normal;
+		text-align: center;
+		color: #a5a5a5;
+		text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+	}
+	.register_container_buttons_responsive{
+		display:none;
+	}
+	.register_container_buttons{
+		display:block;
+		.register_button{
+			cursor:pointer;
+			display:inline-block;
+			padding: 10px;
+			padding-bottom: 10px;
+			/*font-family: Avenir;*/
+			font-size: 14px;
+			font-weight: 900;
+			font-style: normal;
+			font-stretch: normal;
+			line-height: 2.5;
+			letter-spacing: normal;
+			text-align: left;
+			color: #a5a5a5;
+		}
+		.register_button_selected{
+			color: #fff;
+			border-bottom: 1px solid #fff;
+		}
+		.register_button:hover{
+			opacity:.5;
+		}
+	}
+	.register_tab{
+		display:none;
+	}
+	.register_tab_selected{
+		display:block;
+	}
+}
+@media screen and (max-width: 992px){
+	.register_container{
+		margin-top:20px !important;
+		.register_container_rot{
+
+		}
+		.register_container_descriptor{
+			padding:10px;
+		}
+		.register_container_buttons_responsive{
+			display:block;
+			.register_button{
+				font-family: Avenir;
+			    font-size: 16px;
+			    font-weight: 900;
+			    font-style: normal;
+			    font-stretch: normal;
+			    line-height: 2.19;
+			    letter-spacing: normal;
+			    text-align: center;
+			    color: #ffffff;
+			}
+		}
+		.register_container_buttons{
+			display:none;
+			.register_button{
+
+			}
+			.register_button_selected{
+
+			}
+			.register_button:hover{
+
+			}
+		}
+		.register_tab{
+
+		}
+		.register_tab_selected{
+
+		}
+	}
+}

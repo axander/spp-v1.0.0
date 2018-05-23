@@ -1,0 +1,113 @@
+.channel{
+	.channel_module{
+		padding-bottom:50px !important;
+	}
+	.channels_rot{
+	    padding-top: 50px;
+		font-family: AlfaSlabOne;
+	    font-size: 35px;
+	    font-weight: 400;
+	    font-style: normal;
+	    font-stretch: normal;
+	    line-height: 1.43;
+	    letter-spacing: 1.4px;
+	    text-align: center;
+	    color: #fff;
+	}
+	.row{
+		margin:0;
+		padding:0;
+		[class*=' col-']{
+			margin:0;
+			padding:0;
+		}
+	}
+	.item_origen{
+		position: absolute;
+	    top: 20px;
+	    padding: 10px;
+	    padding-left: 20px;
+	    font-size: 15px;
+	    text-align: left;
+	}
+	.item_container_to_lists{
+		background: #222;
+	    height: 300px;
+	    padding-top: 40px;
+	    position: absolute;
+	    width: 100%;
+	    left:0;
+	    top:0;
+	    z-index:1;
+		.item_container_to_lists_item{	
+			cursor:pointer;
+			margin-left: 20px;
+		    margin-right: 20px;
+		    text-align: left;
+		    padding: 20px;
+		    color: #fff;
+		    border-bottom: 1px solid #444;
+		}
+		.item_container_to_lists_item:nth-child(4){	
+		    border-bottom: 0;
+		}
+		.item_container_to_lists_item:hover{
+			opacity:.5;
+		}
+		.item_container_to_lists_close{
+			cursor: pointer;
+		    position: absolute;
+		    top: 10px;
+		    right: 10px;
+		    padding: 10px;
+		    float: right;
+		    color:#fff;
+		}
+		.item_container_to_lists_close:hover{
+			opacity:.5;
+		}
+	}
+	.flag_premium{
+	    position: absolute;
+	    top: 35px;
+	    right: 0;
+	    width: 0;
+	    height: 0;
+	    border-top: 80px solid #000;
+	    border-left: 80px solid transparent;
+	    .flag_premium_ico{
+	        color: #fff;
+	        position: absolute;
+	        top: -75px;
+	        right: 5px;
+	        .icon-award{
+	            font-size: 25px;
+	        }
+	    }
+	}
+}
+@media screen and (max-width: 992px){
+	.channel{
+		.flag_premium{
+		    position: absolute;
+		    top: 0 !important;
+		    right: 0;
+		    width: 0;
+		    height: 0;
+		    border-top: 80px solid #000;
+		    border-left: 80px solid transparent;
+		    .flag_premium_ico{
+		        color: #fff;
+		        position: absolute;
+		        top: -75px;
+		        right: 5px;
+		        .icon-award{
+		            font-size: 25px;
+		        }
+		    }
+		}
+		.channels_rot{
+		    padding-bottom: 50px;
+		}
+	}
+}

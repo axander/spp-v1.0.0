@@ -1,0 +1,56 @@
+.recoveredConfirm{
+	h1{
+		padding-bottom:25px;
+	}
+	.recoveredConfirm_buttons{
+		padding: 50px;
+		>div{
+			display:inline-block;
+		}
+		.cancelPB{
+			display:inline-block;
+		    border: none;
+		    font: inherit;
+		    cursor: pointer;
+		    outline: inherit!important;
+		    padding: 16px!important;
+		    width: 184px;
+		    background: #fff!important;
+		    color: #444!important;
+		    border-radius: 40px;
+		    margin-top: 10px;
+		    -webkit-transition: all .5s ease;
+		    transition: all .5s ease;
+		}
+		.cancelPB:hover{
+			background: #444!important;
+    		color: #fff!important;
+		}
+		a{
+			display:inline-block;
+			margin:20px;
+		}
+		.continuePB{
+			display: inline-block;
+		    border: none;
+		    font: inherit;
+		    cursor: pointer;
+		    outline: inherit!important;
+		    padding: 16px!important;
+		    width: 184px;
+		    background: #67b511!important;
+		    color: #fff!important;
+		    border-radius: 40px;
+		    -webkit-transition: background .5s ease;
+		    transition: background .5s ease;
+		}
+		.continuePB:hover{
+			background: #168d40!important;
+		}
+	}
+}
+@media screen and (max-width: 992px){
+	.recoveredConfirm{
+	       margin-top: 20px!important;
+	}
+}

@@ -1,0 +1,75 @@
+.download{
+    position: relative;
+	height:auto;
+	margin-top:50px;
+	.spinner, .error{
+		position:absolute;
+		top:0;
+		display:table;
+		width:100%;
+		height:100%;
+	}
+}.download_apps{
+	height:300px;
+	.download_apps_content{
+		padding-left:50px;
+		text-align:left;
+		.download_apps_content{
+
+		}.download_apps_content_title{
+			font-size: 25px;
+		}.download_apps_content_subtitle{
+			font-size: 16px;
+			color:#ddd;
+			margin-bottom: 50px;
+		}
+	}
+}.download_subscription{
+	height:auto;
+	display:table;
+	width:100%;
+	height:100%;
+	div{
+		display:table-cell;
+		width:100%;
+		text-align:center;
+		vertical-align:middle;
+	}
+	.download_subscription_title{
+		display:block;
+	    color: #fff;
+	    margin: 0 auto;
+	    font-size: 50px;
+	}
+	.download_subscription_subtitle{
+		display:block;
+		width:50%;
+	    color: #ddd;
+	    margin: 0 auto;
+	    margin-bottom: 50px;
+	    font-size: 26px;
+	}
+	.download_subscription_PB{
+		cursor: pointer;
+	    background:#fff;
+	    color: #444;
+	    width: 200px;
+	    border: 4px solid #fff;
+	    border-radius: 30px;
+	    padding: 10px;
+	}.download_subscription_PB:hover{
+		opacity:.5;
+	}
+	.slider-item-PB:hover{
+		opacity:.5;
+	}
+}.download_deco{
+	position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 370px;
+    background-size: 80%;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}

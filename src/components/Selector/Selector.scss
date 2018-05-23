@@ -1,0 +1,90 @@
+.selector{
+	position:relative;
+	#selector-browse{
+		text-transform:capitalize;
+	}
+	.selector-browse-pb{
+		display:none;
+	}
+	.selector-options-container{
+		position: absolute;
+		z-index: 200;
+		max-height:300px;
+		overflow:hidden;
+	    width: 100%;
+	    background: #444;
+	    left: 0;
+	    padding: 10px;
+	    border-radius: 4px;
+	    -webkit-transition: all .5s ease;
+	    -moz-transition: all .5s ease;
+	    transition: all .5s ease;
+		.selector-item{
+			cursor:pointer;
+			display:block;
+			font-size: 20px;
+		    text-align: left;
+		    border-bottom: 1px dotted #aaa;
+		    padding-top:5px;
+		    padding-bottom:5px;
+		}
+		.selector-item:hover{
+			opacity:.5;
+		}
+	}
+}
+@media screen and (max-width: 992px){
+	.selector{
+		#selector-browse{
+			display:none;
+		}
+		.selector-browse-pb{
+			cursor:pointer;
+			display:block;
+			height: 60px;
+		    width: 100%;
+		    border-radius: 4px;
+		    background-color: #e3e3e3;
+		    margin: 5px auto;
+		    border: none;
+		    padding: 22px!important;
+		    font: inherit;
+		    outline: inherit!important;
+		    color:#aaa;
+		    text-align:left;
+		    line-height: 1;
+		}
+		.selector-options-container{
+		    position: fixed;
+		    display: inline-block!important;
+		    z-index: 2000;
+		    height: 100vh;
+		    max-height:100vh;
+		    overflow-y: scroll;
+	        -ms-overflow-style: none;  // IE 10+
+	        overflow: -moz-scrollbars-none;  // Firefox
+		    width: 100%;
+		    background: #000;
+		    left: 0;
+		    top: 0;
+		    padding: 10px;
+		    border-radius: 0;
+		    -webkit-transition: all .5s ease;
+		    transition: all .5s ease;
+			.selector-item{
+				cursor:pointer;
+				display:block;
+				text-align:left;
+				font-size: 30px;
+				border-bottom:1px dotted #ddd;
+				padding: 10px;
+			}
+			.selector-item:hover{
+				opacity:.5;
+			}
+		}
+		.selector-options-container::-webkit-scrollbar{
+	        display:none;
+	    }
+	}
+}

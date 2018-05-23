@@ -1,0 +1,390 @@
+.list_web{
+    position: relative;
+    height: auto;
+    margin-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    .spinner, .error{
+		position:absolute;
+		top:0;
+		display:table;
+		width:100%;
+		height:100%;
+	}
+	.row{
+		margin:0;
+		[class*="col-"] {
+		    padding:0;
+		}
+	}
+	h1{
+		margin-bottom:50px;
+	}
+	.spinner, .error{
+		position:absolute;
+		top:0;
+		display:table;
+		width:100%;
+		height:100%;
+	}
+	.lists_basic_all{
+		cursor:pointer;
+		color:#bbb;
+		text-decoration:underline;
+	}
+	.lists_basic_all:hover{
+		opacity:.5 !important;
+	}
+	.listsWebBlock{
+		padding-bottom: 20px;
+
+		.listsWebBlock_rot{
+			float:left;
+			padding-bottom: 20px;
+		}
+		.listsWebBlock_all{
+			cursor: pointer;
+			text-decoration:underline;
+			float:right;
+			color: #bbb;
+			padding-bottom: 50px;
+		}.listsWebBlock_all:hover{
+			opacity:.5;
+		}
+		.listsWebBlock_item:last-child{
+			border-bottom: 1px solid #444;
+			margin-bottom: 25px;
+		}
+		.listsWebBlock_item{
+			position:relative;
+			width: 100%;
+		    text-align: left;
+		    padding-top: 20px;
+		    padding-bottom: 10px;
+		    border-top: 1px solid #444;
+			.listsWebBlock_item_play{
+				display:inline-block;
+				width:10%;
+				.listsWebBlock_item_play_PB{
+					cursor:pointer;
+					display:table-cell;
+					width:100%;
+					height:100%;
+					text-align:center;
+					vertical-align:middle;
+					.listsWebBlock_item_play_PB_deco{
+						display: inline-block;
+					    width: 30px;
+					    height: 30px;
+					    /*border: 3px solid #fff;*/
+					    margin-top:3px;
+					    border-radius: 50px;
+					    padding-left: 3px;
+					    line-height: 27px;
+					    text-align: center;
+					    font-size: 10px;
+					    >div {
+					        border-top: 5px solid #000;
+						    border-bottom: 5px solid #000;
+						    border-left: 10px solid #fff;
+						    /* border-right: 12px solid; */
+						    /* height: 0; */
+						    width: 5px;
+						    margin-top: 7px;
+						    margin-left: 6px;
+					    }
+					    .icon-play-circle{
+					    	font-size: 36px;
+					    }
+					}
+				}.listsWebBlock_item_play_PB:hover{
+					opacity:.5;
+				}
+			}
+			.list_ask_delete{
+				position:absolute;
+				top: 0;
+				width:100%;
+				height:100%;
+				background: rgba(0,0,0,.8);
+				.list_ask_delete_rot{
+					display:inline-block;
+				}
+				.list_ask_delete_cancel{
+					cursor:pointer;
+					display:inline-block;
+					padding: 10px;
+				    background: red !important;
+				    border-radius: 30px;
+				    margin-left: 20px;
+				    -webkit-transition: background .5s ease;
+				    -moz-transition: background .5s ease;
+				    transition: background .5s ease;
+				}.list_ask_delete_cancel:hover{
+					background: #961b0b !important;
+				}
+				.list_ask_delete_exec{
+					cursor:pointer;
+					display:inline-block;
+					padding: 10px;
+					background: #67b511 !important;
+					color:#fff;
+				    border-radius: 30px;
+				    margin-left: 20px;
+				    -webkit-transition: background .5s ease;
+				    -moz-transition: background .5s ease;
+				    transition: background .5s ease;
+				}.list_ask_delete_exec:hover{
+					background: #168d40 !important;
+				}
+			}
+	      	.listsWebBlock_item_image{
+	      		cursor:pointer;
+			    width: 10%;
+			    display: inline-block;
+			    vertical-align: top;
+			    height: 100%;
+			    .listsWebBlock_item_image_thumb{
+			    	width:35px;
+			    	background:blue;
+					height:35px;
+			    	background-repeat:no-repeat;
+			    	background-size:cover;
+			    	background-position:center center;
+			    	position: absolute;
+    				margin-top: -1px;
+			    }
+	      	}.listsWebBlock_item_image:hover{
+	      		opacity:.5;
+	      	}
+	      	.listsWebBlock_item_name{
+		    	width: 55%;
+			    display: inline-block;
+			    padding-top: 5px;
+			    padding-bottom: 5px;
+			    vertical-align: top;
+			    height: 100%;
+			    font-weight: bold;
+			    .listsWebBlock_item_name_title{
+			    	display: inline-block;
+			    	width: auto;
+			    	cursor: pointer;
+			    }
+			    .listsWebBlock_item_name_title:hover{
+			    	opacity:.5;
+			    }
+			    .listsWebBlock_item_description{
+				    vertical-align: top;
+				    font-weight: normal;
+			    }
+		    }
+		    .listsWebBlock_item_options{
+		    	width: 10%;
+			    display: inline-block;
+			    padding-top: 5px;
+			    padding-bottom: 5px;
+			    vertical-align: top;
+			    height: 100%;
+			    .listsWebBlock_item_options_deco{
+		   			display: inline-block;
+		   			margin-top: -3px;
+				    width: 25px;
+				    height: 25px;
+				    border-radius: 50px;
+				    line-height: 21px;
+				    text-align: center;
+				    font-size: 12px;
+				    color: #bbb;
+				    float: right;
+				    border: 2px solid;
+				    .icon-x{
+				    	font-size: 14px !important;
+				    	padding-left: 1px;
+    					line-height: 22px;
+				    }
+			    } .listsWebBlock_item_options_deco:hover{
+		   			opacity:.5;
+			    }
+		    }
+		    .listsWebBlock_item_duration{
+		    	width: 20%;
+			    display: inline-block;
+			    padding-top: 5px;
+			    padding-bottom: 5px;
+			    vertical-align: top;
+			    height: 100%;
+			    text-align: center;
+		    }
+		    .listsWebBlock_item_delete{
+		    	float: right;
+		    	width: 5%;
+			    display: inline-block;
+			    padding-top: 5px;
+			    padding-bottom: 5px;
+			    vertical-align: top;
+			    height: 100%;
+		    	.listsWebBlock_item_del_PB{
+		    		cursor:pointer;
+					display:table-cell;
+					width:100%;
+					height:100%;
+					float:right;
+					vertical-align:middle;
+					.listsWebBlock_item_del_PB_deco{
+						display: inline-block;
+			   			margin-top: -3px;
+					    width: 25px;
+					    height: 25px;
+					    border-radius: 50px;
+					    line-height: 22px;
+					    text-align: center;
+					    font-size: 12px;
+					    color: #bbb;
+					    float: right;
+					    border: 2px solid;
+					    .icon-x{
+					    	font-size: 14px !important;
+					    }
+					}
+				}.listsWebBlock_item_del_PB:hover{
+					opacity:.5;
+				}
+		    }
+		}
+	}
+}
+@media screen and (max-width: 992px){
+   .list_web{
+	    
+	    .spinner, .error{
+			
+		}
+		.row{
+			margin:0;
+			[class*="col-"] {
+			   
+			}
+		}
+		h1{
+			
+		}
+		.spinner, .error{
+			
+		}
+		.lists_basic_all{
+			font-size: 20px;
+    		margin-top: 0;
+		}
+		.lists_basic_all:hover{
+			
+		}
+		.listsWebBlock{
+			.listsWebBlock_rot{
+				
+			}
+			.listsWebBlock_all{
+				
+			}.listsWebBlock_all:hover{
+				
+			}
+			.listsWebBlock_item:last-child{
+				
+			}
+			.listsWebBlock_item{
+				padding-bottom: 5px;
+				.listsWebBlock_item_play{
+					width: 15%;
+					.listsWebBlock_item_play_PB{
+						
+						.listsWebBlock_item_play_PB_deco{
+							>div{
+						        border-top: 5px solid #000;
+							    border-bottom: 5px solid #000;
+							    border-left: 10px solid #fff;
+							    /* border-right: 12px solid; */
+							    /* height: 0; */
+							    width: 5px;
+							    margin-top: 7px;
+							    margin-left: 6px;
+						    }
+						    .icon-play-circle{
+						    	font-size: 36px;
+						    }
+						}
+					}.listsWebBlock_item_play_PB:hover{
+						
+					}
+				}
+				.list_ask_delete{
+					
+					.list_ask_delete_rot{
+						
+					}
+					.list_ask_delete_cancel{
+						
+					}.list_ask_delete_cancel:hover{
+						
+					}
+					.list_ask_delete_exec{
+						
+					}.list_ask_delete_exec:hover{
+						
+					}
+				}
+		      	.listsWebBlock_item_image{
+		      		width: 15%;
+				    .listsWebBlock_item_image_thumb{
+				    	
+				    }
+		      	}.listsWebBlock_item_image:hover{
+		      		
+		      	}
+		      	.listsWebBlock_item_name{
+		      		padding-left: 10px;
+		      		padding-right: 15px;
+				    .listsWebBlock_item_name_title{
+				    	
+				    }
+				    .listsWebBlock_item_name_title:hover{
+				    	
+				    }
+				    .listsWebBlock_item_description{
+					    
+				    }
+			    }
+			    .listsWebBlock_item_options{
+			    	
+				    .listsWebBlock_item_options_deco{
+			   			
+					    .icon-x{
+					    	
+					    }
+				    } .listsWebBlock_item_options_deco:hover{
+			   			
+				    }
+			    }
+			    .listsWebBlock_item_duration{
+			    	display: block;
+			    	width: 100%;
+    				text-align: right;
+			    }
+			    .listsWebBlock_item_delete{
+			    	position: absolute;
+				    top: 20px;
+				    right: 0;
+			    	.listsWebBlock_item_del_PB{
+			    		
+						.listsWebBlock_item_del_PB_deco{
+							
+						    .icon-x{
+						    	
+						    }
+						}
+					}.listsWebBlock_item_del_PB:hover{
+						
+					}
+			    }
+			}
+		}
+	}
+}

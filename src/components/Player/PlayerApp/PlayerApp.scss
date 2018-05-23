@@ -1,0 +1,398 @@
+audio, canvas, progress, video {
+    position: relative;
+    top: 18px;
+    vertical-align: top;
+    width: 100%;
+}
+.player-face-header{
+	background: #444;
+    padding: 10px;
+    min-height: 40px;
+    .player-face-title{
+
+    }
+    .del_PB_deco{
+    	cursor: pointer;
+	    display: inline-block;
+	    width: 20px;
+	    height: 20px;
+	    border-radius: 50px;
+	    line-height: 16px;
+	    text-align: center;
+	    font-size: 10px;
+	    color: #bbb;
+	    float: right;
+	    border: 2px solid;
+	    position: absolute;
+	    top: 10px;
+	    right: 10px;
+	    .icon-x {
+		    font-size: 14px!important;
+		}
+	}
+	.del_PB_deco:hover{
+		opacity:.5;
+	}
+}
+.player-wrapper{
+	display:none;
+}
+table{
+	display:none;
+}
+/*progress[value] {
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    height: 5px;
+}*/
+/*progress[value]::-webkit-progress-value {
+	background:#fff;
+	border-radius: 4px; 
+
+}*/
+/*progress[value]::-webkit-progress-bar {
+	background-color: #fff;
+}
+progress[value]::-webkit-progress-value {
+	background-color: #fff;
+} 
+progress[value]::-moz-progress-bar {
+	background-color: #fff;
+}*/
+
+.player-face{
+	background: #191919;
+    text-align: center;
+    >div{
+    	top: 12px;
+        position:relative;
+    }
+    .player-face-1{
+    	.play{
+	    	.icon-more-horizontal{
+	    		position: absolute;
+			    top: -23px;
+			    left: 0px;
+	    	}
+    	}
+    }
+    .player-face-2{
+        height: 50px;
+        .progression_mobile{
+        	pointer-events:none;
+        }
+    	.progression{
+    		/*top: -129px;*/
+    	}
+    	.player-face-progression-mask-noMobile{
+    		pointer-events: none;
+    	}
+    	.player-face-progression-mask{
+	    	>div{
+	    		pointer-events: none;
+	    	}
+    		/*pointer-events: none;*/
+		    width: 100%;
+		    background: #191919;
+		    height: 50px;
+		    bottom: 20px;
+		    position: absolute;
+		    .player-face-progression-mask-bg{
+		        pointer-events: none;
+			    width: 100%;
+			    height: 5px;
+			    background: #5a5a5a;
+			    border-radius: 3px;
+		    }
+		    .player-face-progression-mask-progress{
+		        pointer-events: none;
+			    height: 5px;
+			    background: #67b511;
+			    position: absolute;
+			    top: 22px;
+			    border-radius: 3px;
+		    }
+		    .player-face-progression-mask-cursor{
+		        pointer-events: none;
+	    	    width: 14px;
+			    height: 14px;
+			    position: absolute;
+			    top: 18px;
+			    .player-face-progression-mask-cursor-deco{
+			    	width: 14px;
+				    height: 14px;
+				    background: #67b511;
+				    position: absolute;
+				    top: 0;
+				    border-radius: 40px;
+				    margin-left: -7px;
+			    }
+		    }
+    	}
+    }
+    .player-face-3{
+    	.volume-progression-mask-desktop{
+    		display:none;
+    	}
+    	.volume-progression-mask{
+		    top: -41px;
+		    left: 100px;
+		    position: relative;
+		    z-index: 20000;
+		    height: 50px;
+    		>div{
+	    		pointer-events: none;
+	    	}
+    		.volume-progression-mask-bg{
+		        pointer-events: none;
+			    width: 100%;
+			    height: 5px;
+			    background: #5a5a5a;
+			    border-radius: 3px;
+		    }
+
+		    .volume-progression-mask-progress{
+		        pointer-events: none;
+			    height: 5px;
+			    background: #67b511;
+			    position: absolute;
+			    top: 22px;
+			    border-radius: 3px;
+		    }
+		    .volume-progression-mask-cursor{
+		        pointer-events: none;
+	    	    width: 14px;
+			    height: 14px;
+			    position: absolute;
+			    top: 18px;
+			    .volume-progression-mask-cursor-deco{
+			    	width: 14px;
+				    height: 14px;
+				    background: #67b511;
+				    position: absolute;
+				    top: 0;
+				    border-radius: 40px;
+				    margin-left: -7px;
+			    }
+		    }
+    	}
+    }
+    .player-face-url{
+    	display:none;
+    	font-size:10px;
+    }
+    .time_played{
+    	-webkit-touch-callout: none; 
+	    -webkit-user-select: none; 
+	    -khtml-user-select: none; 
+	    -moz-user-select: none; 
+	    -ms-user-select: none;
+	    user-select: none; 
+    }
+    .time_played, .duration{
+    	display:inline-block;
+		padding-left: 10px;
+    	padding-right: 15px;
+    	img{
+    		width:50%;
+    	}
+    }
+	.next,.previous2,.play,.pause,.backward,.forward2, .progression, .volume{
+		cursor:pointer;
+		display:inline-block;
+		padding-left: 10px;
+    	padding-right: 15px;
+    	img{
+    		width:50%;
+    	}
+	}
+	.next,.previous2,.backward,.forward2, .time_played, .progression, .duration ,.volume{
+		img{
+    		width:70%;
+    		opacity:.5;
+    	}
+	}
+	.play,.pause{
+		img{
+    		width:85%;
+    	}
+	}
+	.next:hover,.previous2:hover,.play:hover,.pause:hover,.backward:hover,.forward2:hover, .progression:hover, .volume:hover{
+		opacity:.5;
+	}
+	.forward2{
+		padding-right: 5px;
+	}
+	.backward{
+		padding-left: 5px;
+	}
+	.previous2{
+		padding-right:0;
+	}
+	.next{
+		transform: rotate(180deg);
+		padding-left:0;
+		padding-right:0;
+		.icon-skip-back{
+			top: 1px;
+	    	position: relative;
+	    }
+	}
+	.progression{
+	    width: 100%;
+	    background: #cc2020;
+	    /* border-radius: 13px; */
+	    height: 50px;
+	    margin-top: 0;
+	    padding: 0;
+	    /* overflow: hidden; */
+	    position: relative;
+	    top: -20px;
+	    /* top: 65px; */
+	    input[type=range] {
+		    -webkit-appearance: media-slider;
+		    display: block;
+		    width: 100%;
+		    background: transparent;
+		}
+	    .progression-seek{
+			position: absolute;
+		    top: 0;
+		    height:50px;
+		}
+	}
+}
+@media screen and (max-width: 470px){
+	.player-face-1-desktop{
+	    text-align: left !important;
+	}
+}
+@media screen and (max-width: 992px){
+	.player-face{
+	    background: #191919;
+	    padding: 0;
+	    text-align: left;
+	    height: 70px !important;
+	    >div{
+	    	top:0 !important;
+	    }
+	    .player-face-1{
+	    	top: 70px !important;
+		    position: absolute;
+		    text-align: center;
+		    width: 100% !important;
+		    .previous2{
+		    	padding-right:10px;
+		    }
+		    .backward{
+		    	padding-left:0;
+		    }
+		    .time_played{
+		    	padding-left: 0;
+			    padding-right: 0;
+			    position: absolute;
+			    left: 10px;
+			    top: -22px;
+		    }
+	    }
+	    .player-face-2{
+	    	height:0;
+	    	margin-left: 50px;
+	    	margin-right: 50px;
+	    	top:32px !important;
+    		/*width: calc(100% - 270px)!important;*/
+    		width: calc(100% - 100px)!important;
+	    	.progression{
+			    height: 25px;
+			    top:-29px;
+			    audio, canvas, progress, video {
+				    top: 5px;
+				}
+				.progression-seek{
+					height: 25px;
+				}
+			}
+			.player-face-progression-mask{
+				top: -29px;
+				height: 25px;
+				.player-face-progression-mask-progress{
+					top:10px;
+				}
+				.player-face-progression-mask-cursor{
+					top:6px;
+				}
+	    	}
+	    }
+	    .player-face-3{
+	    	float: right;
+	    	.duration{
+	    		padding-right: 0;
+			    position: absolute;
+			    top: -12px;
+			    right: 10px;
+	    	}
+	    	.volume{
+	    		padding-right: 10px;
+	    		top: 10px !important;
+			    position: relative;
+			    text-align: center;
+			    width: 100%;
+	    	}
+	    	.volume-progression-mask-desktop{
+	    		display:none;
+	    	}
+	    	.volume-progression-mask{
+			    top: 0px;
+			    left: -100px;
+			    position: absolute;
+			    z-index: 20000;
+			    height: 50px;
+			    width: 100px;
+	    		>div{
+		    		pointer-events: none;
+		    	}
+	    		.volume-progression-mask-bg{
+			        pointer-events: none;
+				    width: 100%;
+				    height: 5px;
+				    background: #5a5a5a;
+				    border-radius: 3px;
+			    }
+			    .volume-progression-mask-progress{
+			        pointer-events: none;
+				    height: 5px;
+				    background: #67b511;
+				    position: absolute;
+				    top: 22px;
+				    border-radius: 3px;
+			    }
+			    .volume-progression-mask-cursor{
+			        pointer-events: none;
+		    	    width: 14px;
+				    height: 14px;
+				    position: absolute;
+				    top: 18px;
+				    .volume-progression-mask-cursor-deco{
+				    	width: 14px;
+					    height: 14px;
+					    background: #67b511;
+					    position: absolute;
+					    top: 0;
+					    border-radius: 40px;
+					    margin-left: -7px;
+				    }
+			    }
+	    	}
+	    }
+	}
+	.player-face-header{
+		width: 100%;
+	    .player-face-title{
+	    	width: calc(100% - 40px)!important;
+		    white-space: nowrap;
+		    overflow: hidden;
+		    text-overflow: ellipsis;
+	    }
+	}
+}

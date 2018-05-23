@@ -1,0 +1,118 @@
+.news{
+    position: relative;
+	min-height:600px;
+	margin-top:50px;
+	.spinner, .error{
+		position:absolute;
+		top:0;
+		display:table;
+		width:100%;
+		height:100%;
+	}
+}.news_episodes{
+    .news_episodes_tittle{
+    	font-size: 80px;
+	    width: 100%;
+	    display: inline-block;
+	    position: relative;
+	    left: 0;
+	    top: 140px;
+    }
+    .news_episodes_content{
+    	position: absolute;
+	    width: 100%;
+	    padding-bottom: 50px;
+	    bottom: 0;
+    	.news_item{
+			cursor:pointer;
+			display:inline-block;
+			width:150px;
+			.news_item_content{
+				display:table;
+				width:100%;
+				height:100%;
+				.news_item_item_PB{
+					display:table-cell;
+					width:100%;
+					height:100%;
+					text-align:center;
+					vertical-align:middle;
+					.news_item_item_PB_deco{
+						display: inline-block;
+					    width: 50px;
+					    height: 50px;
+					    border: 3px solid #fff;
+					    border-radius: 50px;
+					    padding-left: 5px;
+					    line-height: 45px;
+					    text-align: center;
+					    font-size: 30px;
+					}
+				}
+			}
+			
+		}.news_item:hover{
+			opacity:.5;
+		}
+    }
+}
+@media screen and (max-width: 992px){
+	.news{
+    position: relative;
+	min-height:600px;
+	margin-top:50px;
+	.spinner, .error{
+		position:absolute;
+		top:0;
+		display:table;
+		width:100%;
+		height:100%;
+	}
+}.news_episodes{
+    .news_episodes_tittle{
+    	font-size: 40px;
+	    width: 100%;
+	    display: inline-block;
+	    position: relative;
+	    left: 0;
+	    top: 140px;
+    }
+    .news_episodes_content{
+    	position: absolute;
+	    width: 100%;
+	    padding-bottom: 50px;
+	    bottom: 0;
+    	.news_item{
+			cursor:pointer;
+			display:inline-block;
+			width:150px;
+			.news_item_content{
+				display:table;
+				width:100%;
+				height:100%;
+				.news_item_item_PB{
+					display:table-cell;
+					width:100%;
+					height:100%;
+					text-align:center;
+					vertical-align:middle;
+					.news_item_item_PB_deco{
+						display: inline-block;
+					    width: 50px;
+					    height: 50px;
+					    border: 3px solid #fff;
+					    border-radius: 50px;
+					    padding-left: 5px;
+					    line-height: 45px;
+					    text-align: center;
+					    font-size: 30px;
+					}
+				}
+			}
+			
+		}.news_item:hover{
+			opacity:.5;
+		}
+    }
+}
+}

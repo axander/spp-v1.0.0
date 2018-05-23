@@ -1,0 +1,201 @@
+.bills{
+	.neutralPB{
+    	color:#fff !important;
+    }
+	[class*="row"],[class*="col-"] {
+		padding:0;
+		margin:0;
+		padding-top:10px;
+		padding-bottom:10px;
+   	}
+	text-align:left;
+	color:#fff;
+	h1{
+		font-family: AlfaSlabOne;
+		font-size: 50px;
+		font-weight: normal;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: 1;
+		letter-spacing: 2px;
+		text-align: center;
+		color: #ffffff;
+	}
+	.bills_data{
+		.bills_data_rot_responsive{
+			display:none;
+		}
+		.bills_data_rot{
+			font-family: Avenir;
+			font-size: 20px;
+			font-weight: 900;
+			font-style: normal;
+			font-stretch: normal;
+			line-height: 1.5;
+			letter-spacing: normal;
+			color: #ffffff;
+		}
+		.bills_data_type{
+			font-family: Avenir;
+			font-size: 20px;
+			font-weight: normal;
+			font-style: normal;
+			font-stretch: normal;
+			line-height: 1.5;
+			letter-spacing: normal;
+			color: #d0d0d0;
+		  	.bills_data_type_modify{
+		  		text-align:right;
+		  	}
+		}
+	}
+	.balls{
+		display:none;
+	}
+	.bills_list_container{
+		
+		.bills_list_rot{
+			padding-top:10px;
+			padding-bottom:20px;
+			font-family: Avenir;
+			font-size: 20px;
+			font-weight: 900;
+			font-style: normal;
+			font-stretch: normal;
+			line-height: 1.5;
+			letter-spacing: normal;
+			color: #ffffff;
+			border-bottom:1px solid #444;
+		}
+		.bills_list{
+		    width: 100%;
+			.bills_list_tabs{
+				font-family: Avenir;
+				font-size: 20px;
+				font-weight: 900;
+				font-style: normal;
+				font-stretch: normal;
+				line-height: 1.5;
+				letter-spacing: normal;
+				color: #ffffff;
+				border-bottom:1px solid #444;
+			}
+			.bills_list_item{
+				>div:nth-child(4){
+					text-align:right
+				}
+				font-family: Avenir;
+				font-size: 20px;
+				font-weight: normal;
+				font-style: normal;
+				font-stretch: normal;
+				line-height: 1.5;
+				letter-spacing: normal;
+				color: #d0d0d0;
+			}.bills_list_item:last-child{
+				padding-bottom:50px;
+			}
+		}
+	}
+}
+@media screen and (max-width: 992px){
+    .bills{
+    margin-top: 20px !important;
+		[class*="row"],[class*="col-"] {
+			padding:0;
+			margin:0;
+			padding-top:10px;
+			padding-bottom:10px;
+			text-align: center !important;
+	   	}
+		text-align:left;
+		color:#fff;
+		h1{
+			font-family: AlfaSlabOne;
+			font-size: 50px;
+			font-weight: normal;
+			font-style: normal;
+			font-stretch: normal;
+			line-height: 1;
+			letter-spacing: 2px;
+			text-align: center;
+			color: #ffffff;
+		}
+		.bills_data{
+			.bills_data_rot{
+				display:none
+			}
+			.bills_data_rot_responsive{
+				display:block;
+				font-family: Avenir;
+				font-size: 20px;
+				font-weight: 900;
+				font-style: normal;
+				font-stretch: normal;
+				line-height: 1.5;
+				letter-spacing: normal;
+				color: #ffffff;
+				text-align:center;
+			}
+			.bills_data_type{
+				font-family: Avenir;
+				font-size: 20px;
+				font-weight: normal;
+				font-style: normal;
+				font-stretch: normal;
+				line-height: 1.5;
+				letter-spacing: normal;
+				color: #d0d0d0;
+				margin-top: 0;
+			  	.bills_data_type_name{
+			    	display:none;
+			    }
+			    .bills_data_card{
+			    	font-size:24px;
+			    }
+			}
+		}
+		.bills_list_rot{
+			display:none;
+		}
+		.balls{
+			display:block;
+		}
+		.bills_list_container{
+
+			position: relative;
+			overflow: hidden; 
+			height:220px;
+			width: 100vw;
+			.bills_list{
+				position:absolute;
+				left:0;
+				display: table;
+	    		table-layout: fixed;
+				margin-top:0 !important;
+				-webkit-transition: all .5s ease;
+			    -moz-transition: all .5s ease;
+			    transition: all .5s ease;
+				.bills_list_tabs{
+					display:none;
+				}
+				.bills_list_item{
+				    display: table-cell;
+				    width:100vw;
+				    padding: 0px !important;
+					>div:nth-child(4){
+						text-align:right
+					}
+					font-family: Avenir;
+					font-size: 20px;
+					font-weight: normal;
+					font-style: normal;
+					font-stretch: normal;
+					line-height: 1.5;
+					letter-spacing: normal;
+					color: #d0d0d0;
+				}
+			}
+		}
+	}
+}

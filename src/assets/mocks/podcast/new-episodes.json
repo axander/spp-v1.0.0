@@ -1,0 +1,74 @@
+{
+    "status": "success",
+    "reason": "",
+    "total": 3,
+    "perPhase": 3,
+    "result": [
+        {
+            "id": 18,
+            "name": "8.- La odisea de Steve Avery.",
+            "description": "En 1985, Steve Avery recibió una condena de prisión basada en pruebas falsas, aportadas por la policía, por un delito que no había cometido. Después de 18 años, consiguió demostrarlo, recuperó la libertad y demandó al Condado de Manitowoc por más de 30 millones de dólares. Días después de presentar la querella, fue de nuevo detenido, junto con su sobrino, Bendran Dassey, y acusados de asesinato. Les condenaron a cadena perpetua. Desde la cárcel, sigue manifestando su inocencia y señalándose como víctima de la inquina policial. En el programa de hoy, les ofrecemos dos fragmentos de los interrogatorios tras su detención.",
+            "slug": "8-la-odisea-de-steve-avery",
+            "file": "uploads/episodes/episode-WwQRqUsmIc.mp3",
+            "image": "",
+            "active": true,
+            "labels": "",
+            "reproductions": null,
+            "visible_reps": 0,
+            "duration": 998,
+            "date": "2018-04-09 08:40",
+            "info": {
+                "likes": 0,
+                "comments": 0
+            },
+            "origin": {
+                "id": 10,
+                "name": "Elena en el país de los horrores"
+            }
+        },
+        {
+            "id": 17,
+            "name": "9.- El silencio de los inocentes: víctimas suicidas.",
+            "description": "En el programa de hoy, hablamos con el psicólogo, especialista en conductas violentas, Juan Ramón Pereira, de la inducción al suicidio, un crimen escurridizo para la justicia, más presente en nuestra realidad de lo que creemos. Con el criminólogo y doctor en Psicología, Vicente Garrido, analizamos la figura del psicópata a través de su paradigma en la ficción, Hannibal Lecter y la obra que nos lo dio a conocer, “El Silencio de los Corderos”. Los secretos de la película los develamos con Salvador Larroca. Después del boletín de Sos Desaparecidos, con Chris Campos, nos despedimos con un cuento de Koldo Azpitarte: “La Virgen”.",
+            "slug": "9-el-silencio-de-los-inocentes-victimas-suicidas",
+            "file": "uploads/episodes/episode-qjI5FfSsup.mp3",
+            "image": "",
+            "active": true,
+            "labels": "",
+            "reproductions": null,
+            "visible_reps": 0,
+            "duration": 928,
+            "date": "2018-04-09 08:40",
+            "info": {
+                "likes": 0,
+                "comments": 0
+            },
+            "origin": {
+                "id": 10,
+                "name": "Elena en el país de los horrores"
+            }
+        },
+        {
+            "id": 15,
+            "name": "7.- Making a murderer: diablos haitianos y zombies.",
+            "description": "¿Víctima o victimario? Después de pasar 18 años en la cárcel por un delito que no había cometido, Steve Avery recupera su libertad y demanda al estado por negligencia y manipulación de pruebas. Antes de que pudiera resolverse la querella, volvía a estar entre rejas, en este caso, a perpetuidad, por asesinato. El análisis de las pruebas hacen que sobre este caso exista la duda razonable de que la historia podría haberse repetido. Chris Campos y Steffie Fernández nos dan a conocer los detalles. Manu Carballal vivió en Haití una aventura digna de la mejor película de acción y nos la cuenta en “El Ojo Crítico”. Salva Larroca hablar de cine Z en “El Octavo Pasajero”. En el boletín de “Sos Desaparecidos” escucharemos el testimonio de Tamara Salazar sobre el triste desenlace de la desaparición de su hermana, Nathaly Salazar. En “El Club de los Marineros Muertos” escucharemos el cuento “La conversación”, de Alex Cardoso, el forjador de relatos, en la voz de Emilio Aguilar.",
+            "slug": "7-making-a-murderer-diablos-haitianos-y-zombies",
+            "file": "uploads/episodes/episode-3mNjYJVOHq.mp3",
+            "image": "",
+            "active": true,
+            "labels": "",
+            "reproductions": null,
+            "visible_reps": 0,
+            "duration": 599,
+            "date": "2018-04-09 08:37",
+            "info": {
+                "likes": 0,
+                "comments": 0
+            },
+            "origin": {
+                "id": 10,
+                "name": "Elena en el país de los horrores"
+            }
+        }
+    ]
+}

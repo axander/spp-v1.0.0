@@ -1,0 +1,28 @@
+.item_stats{
+	padding-bottom:5px;
+	margin-top: 45px !important;
+	.item_stats_container{
+		 .item_stats_container_elem{
+		 	div{
+		 		display:inline-block;
+		 		div{
+		 			display:inline-block;
+		 		}
+		 	}
+			display:inline-block;
+			height:40px;
+			margin-left: 7px;
+    		margin-right: 8px;
+		}
+	}
+	
+}
+@media screen and (max-width: 992px){
+   .item_stats{
+   		width: 100%;
+    	text-align: center;
+    	.item_stats_container{
+    		
+    	}
+   }
+}

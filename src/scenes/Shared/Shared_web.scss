@@ -1,0 +1,11 @@
+.shared_web{
+	position: relative;
+	height:auto;
+	.spinner, .error{
+		position:absolute;
+		top:0;
+		display:table;
+		width:100%;
+		height:100%;
+	}
+}

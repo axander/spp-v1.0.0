@@ -1,0 +1,22 @@
+.info_static{
+	h1{
+		text-align:center;
+	}
+	#content-info{
+		padding-left: 20px;
+	    padding-right: 20px;
+	    text-align: left!important;
+	}
+}
+@media screen and (max-width: 992px){
+	.info_static{
+		h1{
+			text-align:center;
+		}
+		#content-info{
+			padding-left: 20px;
+		    padding-right: 20px;
+		    text-align: left!important;
+		}
+	}
+}

@@ -1,0 +1,21 @@
+.list_item{
+	cursor:pointer;
+	display:inline-block;
+	/*background:#fff;*/
+	padding:10px;
+	border-bottom:1px dotted #ddd;
+	text-align:left;
+}.item_selected{
+	pointer-events:none;
+	background:#ddd;
+}
+.list_item_container{
+	.itemGo{
+		cursor: pointer;
+		display:inline-block;
+	    padding-left: 10px;
+	}
+	.itemGo:hover{
+		opacity:.5;
+	}
+}

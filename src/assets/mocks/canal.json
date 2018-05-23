@@ -1,0 +1,96 @@
+{  
+   "status":"success",
+   "total":225,
+   "perPhase":10,
+   "result":[  
+      {  
+         "id":"xxxxx",
+         "name":"Historia y misterios",
+         "description":"Sumérgete en países tenebrosos y descubre historias hasta ahora nunca escuchadas. Abrimos la puerta a un mundo nuevo.",
+         "slug":"historia-y-misterios",
+         "premium":0,
+         "active":true,
+         "image":"uploads\/canals\/canal-4RqEPq20F3.png",
+         "created_at":"2018-03-09 09:52:22",
+         "updated_at":"2018-03-19 08:30:59",
+         "deleted_at":null,
+         "info":{
+            "likes":32,
+            "comments":234,
+            "date":"24 sem",
+            "played":"345"
+         }
+      },
+      {  
+         "id":"xxxxx",
+         "name":"Deportes",
+         "description":"Historias con la excusa del balón, crítica periodística y análisis del mejor baloncesto del mundo. Existe otra visión del deporte y está aquí.",
+         "slug":"deportes",
+         "premium":1,
+         "active":true,
+         "image":"uploads\/canals\/canal-qI88TwQluI.png",
+         "created_at":"2018-03-09 09:52:46",
+         "updated_at":"2018-03-19 08:30:05",
+         "deleted_at":null,
+         "info":{
+            "likes":32,
+            "comments":234,
+            "date":"24 sem",
+            "played":"345"
+         }
+      },
+      {  
+         "id":"xxxxx",
+         "name":"Forbes",
+         "description":"La actualidad económica y el análisis de los negocios, desde todos los puntos de vista, de la mano de Forbes.",
+         "slug":"forbes",
+         "premium":0,
+         "active":true,
+         "image":"uploads\/canals\/canal-2QNI4TRrkt.png",
+         "created_at":"2018-03-09 09:53:09",
+         "updated_at":"2018-03-19 08:30:31",
+         "deleted_at":null,
+         "info":{
+            "likes":32,
+            "comments":234,
+            "date":"24 sem",
+            "played":"345"
+         }
+      },
+      {  
+         "id":"xxxxx",
+         "name":"Spainmedia",
+         "description":"Contenidos y formatos diferentes en #TuOtraRadio.",
+         "slug":"spainmedia",
+         "premium":0,
+         "active":true,
+         "image":"uploads\/canals\/canal-OxUH7kfLop.png",
+         "created_at":"2018-03-09 09:54:11",
+         "updated_at":"2018-03-19 08:31:05",
+         "deleted_at":null,
+         "info":{
+            "likes":32,
+            "comments":234,
+            "date":"24 sem",
+            "played":"345"
+         }
+      },
+      {  
+         "name":"Test",
+         "description":"dfsdf asdfadsfdsaf  fgfg ",
+         "slug":"test",
+         "premium":0,
+         "active":true,
+         "image":"uploads\/canals\/canal-eHUgRQwcYM.png",
+         "created_at":"2018-03-19 08:46:48",
+         "updated_at":"2018-03-20 21:53:23",
+         "deleted_at":null,
+         "info":{
+            "likes":32,
+            "comments":234,
+            "date":"24 sem",
+            "played":"345"
+         }
+      }
+   ]
+}

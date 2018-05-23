@@ -1,0 +1,43 @@
+$template-light-bg: #fff;
+$template-light-color: #444;
+
+$template-dark-bg: #000;
+$template-dark-color-0: #fff;
+$template-dark-color-1: #aaa;
+$template-dark-color-2: #666666;
+
+$template-light-bg: #fff;
+$template-light-color-0: #000;
+$template-light-color-1: #444;
+$template-light-color-2: #ddd;
+
+$template-dark-color-border-purple: purple;
+
+$template-size-0: 20px;
+$template-size-1: 12px;
+$template-size-2: 10px;
+
+.downloadAndroid{
+	display:inline-block;
+	.appDownload{
+		cursor:pointer;
+		display:inline-block;
+		margin-right: 8px;
+		padding: 8px;
+		width: 120px;
+	    margin-bottom: 28px;
+		border: 1px solid #444;
+		font-size:$template-size-2;
+		text-align:center;
+		vertical-align: top;
+		img{
+			height: 25px;
+		}
+	}
+	.appDownload_dark{
+		border: 1px solid $template-dark-color-2;
+	}.appDownload:hover{
+		opacity:.5;
+	}
+}
+

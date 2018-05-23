@@ -1,0 +1,54 @@
+.profile{
+	label{
+		float:left;
+	}
+	.profile_avatar{
+		cursor: pointer;
+	    width: 150px;
+	    height: 150px;
+	    background: #e3e3e3;
+	    background-size: cover;
+	    display: inline-block;
+	    border-radius: 100px;
+	    color: #444;
+	    line-height: 150px;
+	    .profile_avatar_rot{
+		    background-color: rgba(255,255,255,.5);
+		    padding: 10px;
+		    display: inline;
+	    }
+
+	}
+	#uploaderImage{
+		display:none;
+	}
+	.profile_avatar:hover{
+		opacity:.5;
+	}
+	.profile_input{
+		padding:5px;
+		input[type=password], input[type=text] {
+		    height: 60px;
+		    width: 100%;
+	  		border-radius: 4px;
+	  		background-color: #e3e3e3;
+		    margin: 0;
+		    border: none;
+		    padding: 22px!important;
+		    font: inherit;
+		    outline: inherit!important;
+		}
+	}
+
+
+	
+}
+@media screen and (max-width: 992px){
+	.profile{
+		margin-top:50px !important;
+		.profile_save{
+			float: none !important;
+			display:inline-block;
+		}
+	}
+}

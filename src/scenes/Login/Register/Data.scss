@@ -1,0 +1,59 @@
+.data{
+	width:50%;
+	padding-right:20px;
+	padding-left:20px;
+	display: inline-block;
+	.data_input_25{
+	 	width:25%;
+	 	display:inline-block;
+	}
+	.data_input_75{
+	 	width:75%;
+	 	display: inline-block;
+	 	padding-left: 5px;
+	}
+	.data_input_40{
+	 	width:40%;
+	 	display:inline-block;
+	 	vertical-align: top;
+	}
+	.data_input_60{
+	 	width:60%;
+	    display: inline-block;
+	    padding-left: 5px;
+	}
+	form{
+		>div{
+			padding:5px;
+		}
+	}
+	input[type=password], input[type=text] {
+	    height: 60px;
+	    width: 100%;
+  		border-radius: 4px;
+  		background-color: #e3e3e3;
+	    margin: 0;
+	    border: none;
+	    padding: 22px!important;
+	    font: inherit;
+	    outline: inherit!important;
+	}
+}
+@media screen and (max-width: 992px){
+    .data{
+    	margin-top:30px !important;
+		width:100%;
+		.data_continue{
+			float: none !important;
+			display:inline-block;
+			margin-top:30px !important;
+		}
+		.data_back{
+			float: none !important;
+			margin-top:30px !important;
+		}
+		.data_input_60{
+		    padding-top: 0;
+		}
+	}
+}

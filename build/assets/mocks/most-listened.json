@@ -1,0 +1,145 @@
+{
+    "status": "success",
+    "reason": "",
+    "total": 6,
+    "result": [
+        {
+            "id": 9,
+            "name": "1.- Incesto, asesinato y canibalismo en Madrid. Magia con la mano de un muerto.",
+            "description": "Juan Rada nos habla de un clásico de la crónica negra española, el crimen del Capitán Sánchez; Fermín Mayorga nos cuenta algunos casos de misteriosos asesinatos de tiempos pasados ocurridos en nuestro país en “Líbranos del mal”; hablamos de magia con restos humanos, en “Crónicas del otro lado”, con Javier Arries; conocemos las últimas alertas de desaparecidos en el boletín de Chris Campos; y, antes de cerrar las puertas del País de los Horrores por esta semana, escucharemos el cuento de nuestro “Club de los marineros muertos”. Hoy nos lo dedica Miguel Salas y su título es “Polaridad”.",
+            "slug": "48-incesto-asesinato-y-canibalismo-en-madrid-magia-con-la-mano-de-un-muerto",
+            "file": "uploads/episodes/episode-sFHqYSAZDB.mp3",
+            "image": "",
+            "active": true,
+            "labels": "",
+            "reproductions": null,
+            "visible_reps": 0,
+            "duration": 629,
+            "listeneds_count": 0,
+            "date": "2018-04-09 08:25",
+            "info": {
+                "likes": 0,
+                "comments": 0
+            },
+            "origin": {
+                "id": 10,
+                "name": "Elena en el país de los horrores"
+            }
+        },
+        {
+            "id": 10,
+            "name": "2.- El crimen del capitán Sánchez.",
+            "description": "En 1913, la desaparición de Rodrigo García Jalón, un viudo adinerado habitual del Circulo de Bellas Artes de Madrid, derivó en uno de los crímenes más espantosos de cuantos han tenido lugar en nuestro país. Fue una historia de incesto, celos y muerte retratada por Vicente Arana en el segundo episodio de la serie “La huella del crimen”.",
+            "slug": "2-el-crimen-del-capitan-sanchez",
+            "file": "uploads/episodes/episode-6zm8OexiqE.mp3",
+            "image": "",
+            "active": true,
+            "labels": "",
+            "reproductions": null,
+            "visible_reps": 0,
+            "duration": 520,
+            "listeneds_count": 0,
+            "date": "2018-04-09 08:27",
+            "info": {
+                "likes": 0,
+                "comments": 0
+            },
+            "origin": {
+                "id": 10,
+                "name": "Elena en el país de los horrores"
+            }
+        },
+        {
+            "id": 11,
+            "name": "6.- Beth, la niña psicópata.",
+            "description": "Beth y su hermano Jon quedaron huérfanos de madre cuando la niña apenas tenía un año. Estuvieron a cargo de su padre biológico, pero pronto se desató el infierno: vivieron en un estado de semiabandono y abusos de todo tipo hasta que los servicios sociales detectaron el problema, los pusieron a salvo y los entregaron a sus nuevos padres. Tenían entonces 19 y 7 meses, respectivamente. Pese a que su vida cambiara radicalmente, pese a que ahora estuvieran en un hogar lleno de amor y atenciones, Beth comenzó a maltratar a su hermano con una crueldad inusitada, poniendo, en ocasiones, en peligro su vida. La cadena HBO produjo en 1992 un documental contando su historia. En él, se puede ver la entrevista que el psicólogo clínico Dr. Ken Magid, especialista en el tratamiento de niños víctimas de abusos severos, hizo a Beth cuando tenía seis años. La oímos hablar con franqueza sobre sus impulsos destructivos, cómo intenta acabar con la vida de su hermano y de sus padres.",
+            "slug": "6-beth-la-nina-psicopata",
+            "file": "uploads/episodes/episode-XTYGTQhxDG.mp3",
+            "image": "",
+            "active": true,
+            "labels": "",
+            "reproductions": null,
+            "visible_reps": 0,
+            "duration": 567,
+            "listeneds_count": 0,
+            "date": "2018-04-09 08:33",
+            "info": {
+                "likes": 0,
+                "comments": 0
+            },
+            "origin": {
+                "id": 10,
+                "name": "Elena en el país de los horrores"
+            }
+        },
+        {
+            "id": 12,
+            "name": "3.- Madres convertidas en asesinas en serie de neonatos.",
+            "description": "¿Quién no es capaz de enternecerse con un bebé? Es algo más que lógico, es instinto, es biología. Estamos llamados a nuestra especia y más a los que entendemos como más débiles, y por eso no encontramos razón al asesinato de un bebé. En la escala de dolor de la que hablábamos el martes subimos un escalón más: ¿Cómo una mujer puede llevar a término un parto en situaciones escabrosas y llevar después al recién a nacido hasta la muerte y llevarlo a repetir esto cinco, siete o nueve veces? Pudiera parecer que retorcemos la realidad, pero no. Pero son otras madres, las que se embarazan en serie y son capaces de matar uno tras a otros a sus neonatos y conservar sus cuerpos a modo de fetiche. Trataremos de buscar, con nuestros especialistas, una explicación. Eduardo Casas Herrer responde a nuestra Alerta 091 nos trae hoy un caso cercano de un tiroteo que algunos creyeron formaba parte de una película de acción. El Profesor José Miguel Mulet se vuelve a poner la bata blanca para continuar con su repaso a las drogas. Y tras nuestro boletín de desaparecidos escucharemos un nuevo cuento de Koldo Azpitarte, ‘La muerte blanca’.",
+            "slug": "3-madres-convertidas-en-asesinas-en-serie-de-neonatos",
+            "file": "uploads/episodes/episode-PSn1Rigzpp.mp3",
+            "image": "",
+            "active": false,
+            "labels": "",
+            "reproductions": null,
+            "visible_reps": 0,
+            "duration": 3035,
+            "listeneds_count": 0,
+            "date": "2018-04-09 08:34",
+            "info": {
+                "likes": 0,
+                "comments": 0
+            },
+            "origin": {
+                "id": 10,
+                "name": "Elena en el país de los horrores"
+            }
+        },
+        {
+            "id": 13,
+            "name": "4.- Marybeth Tinning o la compasión como motivación para el asesinato.",
+            "description": "Todos los que conocían a Marybeth Tinning sintieron una profunda compasión por ella y su esposo al saber que, en apenas unas semanas, habían fallecido sus tres hijos por alguna misteriosa afección. La compasión se convirtió en profunda piedad cuando esa fatalidad se repetía una y otra vez, en cada intento de los Tinning en convertirse en una familia. Terminaron por aconsejar a Marybeth que adoptase, que lo que fuera que afectara a sus hijos naturales quizá lo trasmitían sus genes. Aun así, el niño murió. Esto hizo sospechar lo que, finalmente, se confirmó: los ocho de los nueve niños muertos de los Tinning habían sido asesinados por su propia madre.",
+            "slug": "4-marybeth-tinning-o-la-compasion-como-motivacion-para-el-asesinato",
+            "file": "uploads/episodes/episode-RueYZBkFn0.mp3",
+            "image": "",
+            "active": true,
+            "labels": "",
+            "reproductions": null,
+            "visible_reps": 0,
+            "duration": 2583,
+            "listeneds_count": 0,
+            "date": "2018-04-09 08:35",
+            "info": {
+                "likes": 0,
+                "comments": 0
+            },
+            "origin": {
+                "id": 10,
+                "name": "Elena en el país de los horrores"
+            }
+        },
+        {
+            "id": 14,
+            "name": "5.- Niños que matan.",
+            "description": "En las últimas semanas, se han reportado numerosas noticias con menores de 14 años como protagonistas de agresiones, abusos sexuales y hasta homicidios, ¿qué hace que un niño pase de ser de quien hay que proteger a quien hay que protegerse? Hablamos de niños violentos con el psicólogo, especialista en conductas violentas, Juan Ramón Pereira; conocemos un caso paradigmático de menores asesinos de la mano de Chris Campos: los crímenes de Mary Bell; en “La Ciencia Negra”, Juanjo Sánchez- Oro nos hablará de un experimento sobre desdoblamiento de personalidad que hemos titulado “los tres Jesucristos”; en “El Club de los Marineros Muertos” debuta Miguel Salas, con su cuento “Prejuicio”.\r\n43 BETH, LA NIÑA PSICÓPATA.",
+            "slug": "5-ninos-que-matan",
+            "file": "uploads/episodes/episode-VqYheGAPfL.mp3",
+            "image": "",
+            "active": false,
+            "labels": "",
+            "reproductions": null,
+            "visible_reps": 0,
+            "duration": 2909,
+            "listeneds_count": 0,
+            "date": "2018-04-09 08:35",
+            "info": {
+                "likes": 0,
+                "comments": 0
+            },
+            "origin": {
+                "id": 10,
+                "name": "Elena en el país de los horrores"
+            }
+        }
+    ]
+}

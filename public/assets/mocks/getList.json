@@ -1,0 +1,237 @@
+{
+    "status": "success",
+    "list": "subscribe",
+    "reason": "",
+    "type": "episode",
+    "total": 6,
+    "result": [
+        {
+            "id": 12,
+            "name": "La libreta de Van Gaal",
+            "description": "Escucha el podcast de La Libreta de Van Gaal, el repaso crítico más original a la prensa deportiva y sus excesos.",
+            "slug": "la-libreta-de-van-gaal",
+            "premium": 0,
+            "active": true,
+            "image": "uploads/podcasts/podcast-OVnvi0NlfN.png",
+            "labels": "",
+            "date": "2018-03-09 10:00",
+            "info": {
+                "likes": 0,
+                "comments": 0
+            },
+            "origin": {
+                "id": 6,
+                "name": "Deportes"
+            },
+            "isSubscribed": true,
+            "isLiked": false,
+            "isFavorite": false,
+            "pivot": {
+                "client_id": 1,
+                "podcast_id": 12
+            },
+            "canal": {
+                "id": 6,
+                "name": "Deportes",
+                "description": "Historias con la excusa del balón, crítica periodística y análisis del mejor baloncesto del mundo. Existe otra visión del deporte y está aquí.",
+                "slug": "deportes",
+                "premium": 1,
+                "active": true,
+                "image": "uploads/canals/canal-qI88TwQluI.png",
+                "date": "2018-03-09 09:52",
+                "info": [],
+                "position": 2
+            }
+        },
+        {
+            "id": 15,
+            "name": "Ración de NBA",
+            "description": "El mejor baloncesto del mundo, el de la NBA, para todos los hispanos e hispano-hablantes desde España a Estados Unidos, pasando América Latina. Con Chechu y Javier.",
+            "slug": "racion-de-nba",
+            "premium": 0,
+            "active": true,
+            "image": "uploads/podcasts/podcast-HIix8wk0Z6.png",
+            "labels": "",
+            "date": "2018-03-09 10:05",
+            "info": {
+                "likes": 0,
+                "comments": 0
+            },
+            "origin": {
+                "id": 6,
+                "name": "Deportes"
+            },
+            "isSubscribed": true,
+            "isLiked": false,
+            "isFavorite": false,
+            "pivot": {
+                "client_id": 1,
+                "podcast_id": 15
+            },
+            "canal": {
+                "id": 6,
+                "name": "Deportes",
+                "description": "Historias con la excusa del balón, crítica periodística y análisis del mejor baloncesto del mundo. Existe otra visión del deporte y está aquí.",
+                "slug": "deportes",
+                "premium": 1,
+                "active": true,
+                "image": "uploads/canals/canal-qI88TwQluI.png",
+                "date": "2018-03-09 09:52",
+                "info": [],
+                "position": 2
+            }
+        },
+        {
+            "id": 18,
+            "name": "Forbes emprende",
+            "description": "Laura Cerdeira dirige un podcast dedicado a conocer a quienes cambian el mundo. Emprendedores capaces de llegar a lo más alto. <a href=\"\">@Lauracerdeira</a>",
+            "slug": "forbes-emprende",
+            "premium": 0,
+            "active": true,
+            "image": "uploads/podcasts/podcast-knM7XcLETj.png",
+            "labels": "",
+            "date": "2018-03-09 10:10",
+            "info": {
+                "likes": 0,
+                "comments": 0
+            },
+            "origin": {
+                "id": 7,
+                "name": "Forbes"
+            },
+            "isSubscribed": true,
+            "isLiked": false,
+            "isFavorite": false,
+            "pivot": {
+                "client_id": 1,
+                "podcast_id": 18
+            },
+            "canal": {
+                "id": 7,
+                "name": "Forbes",
+                "description": "La actualidad económica y el análisis de los negocios, desde todos los puntos de vista, de la mano de Forbes.",
+                "slug": "forbes",
+                "premium": 0,
+                "active": true,
+                "image": "uploads/canals/canal-2QNI4TRrkt.png",
+                "date": "2018-03-09 09:53",
+                "info": [],
+                "position": 1
+            }
+        },
+        {
+            "id": 26,
+            "name": "Spainmedia Jazz",
+            "description": "El mejor jazz llega a Spainmedia Radio en forma de efeméride. Escucha nuestro podcast y disfruta en el Live de 24h de la música de la libertad.",
+            "slug": "spainmedia-jazz",
+            "premium": 0,
+            "active": true,
+            "image": "uploads/podcasts/podcast-NP95g87ek9.png",
+            "labels": "",
+            "date": "2018-03-09 10:36",
+            "info": {
+                "likes": 1,
+                "comments": 0
+            },
+            "origin": {
+                "id": 8,
+                "name": "Spainmedia"
+            },
+            "isSubscribed": true,
+            "isLiked": true,
+            "isFavorite": true,
+            "pivot": {
+                "client_id": 1,
+                "podcast_id": 26
+            },
+            "canal": {
+                "id": 8,
+                "name": "Spainmedia",
+                "description": "Contenidos y formatos diferentes en #TuOtraRadio.",
+                "slug": "spainmedia",
+                "premium": 0,
+                "active": true,
+                "image": "uploads/canals/canal-OxUH7kfLop.png",
+                "date": "2018-03-09 09:54",
+                "info": [],
+                "position": 0
+            }
+        },
+        {
+            "id": 25,
+            "name": "Tapas a media noche",
+            "description": "La tertulia gastronómica más influyente del mundo podcast, de la mano de la revista Tapas. El sector analizado por los que más saben. ",
+            "slug": "tapas-a-media-noche",
+            "premium": 0,
+            "active": true,
+            "image": "uploads/podcasts/podcast-Uaj3igjER0.png",
+            "labels": "",
+            "date": "2018-03-09 10:35",
+            "info": {
+                "likes": 1,
+                "comments": 0
+            },
+            "origin": {
+                "id": 8,
+                "name": "Spainmedia"
+            },
+            "isSubscribed": true,
+            "isLiked": true,
+            "isFavorite": true,
+            "pivot": {
+                "client_id": 1,
+                "podcast_id": 25
+            },
+            "canal": {
+                "id": 8,
+                "name": "Spainmedia",
+                "description": "Contenidos y formatos diferentes en #TuOtraRadio.",
+                "slug": "spainmedia",
+                "premium": 0,
+                "active": true,
+                "image": "uploads/canals/canal-OxUH7kfLop.png",
+                "date": "2018-03-09 09:54",
+                "info": [],
+                "position": 0
+            }
+        },
+        {
+            "id": 10,
+            "name": "Elena en el país de los horrores",
+            "description": "Adéntrate en nuestro oscuro mundo, lleno de horror, misterios, leyendas y criaturas sombrías. Con la periodista, especialista en crímenes, Elena Merino y su grupo de colaboradores.",
+            "slug": "elena-en-el-pais-de-los-horrores",
+            "premium": 0,
+            "active": true,
+            "image": "uploads/podcasts/podcast-HkBdISWCGQ.jpg",
+            "labels": "",
+            "date": "2018-03-09 09:54",
+            "info": {
+                "likes": 1,
+                "comments": 0
+            },
+            "origin": {
+                "id": 5,
+                "name": "Historia y misterios"
+            },
+            "isSubscribed": true,
+            "isLiked": true,
+            "isFavorite": false,
+            "pivot": {
+                "client_id": 1,
+                "podcast_id": 10
+            },
+            "canal": {
+                "id": 5,
+                "name": "Historia y misterios",
+                "description": "Sumérgete en países tenebrosos y descubre historias hasta ahora nunca escuchadas. Abrimos la puerta a un mundo nuevo.",
+                "slug": "historia-y-misterios",
+                "premium": 0,
+                "active": true,
+                "image": "uploads/canals/canal-4RqEPq20F3.png",
+                "date": "2018-03-09 09:52",
+                "info": [],
+                "position": 3
+            }
+        }
+    ]
+}

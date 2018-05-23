@@ -1,0 +1,288 @@
+
+.download{
+    position: relative;
+	height:auto;
+	margin-top:50px;
+	.spinner, .error{
+		position:absolute;
+		top:0;
+		display:table;
+		width:100%;
+		height:100%;
+	}
+}.download_apps{
+	height:550px;
+	.download_apps_content{
+		padding-left:50px;
+		text-align:left;
+		.download_apps_content{
+		 	text-align:left;
+		}.download_apps_content_title{
+			font-family: AlfaSlabOne;
+		  	font-size: 34px;
+		  	font-weight: normal;
+		  	font-style: normal;
+		  	font-stretch: normal;
+		  	line-height: 1.29;
+		  	letter-spacing: 1.4px;
+		  	text-align: left;
+		  	color: #ffffff;
+		  	padding-top: 130px;
+		}.download_apps_content_subtitle{
+			width: 50%;
+			font-family: Avenir;
+		  	font-size: 19px;
+		  	font-weight: normal;
+		  	font-style: normal;
+		  	font-stretch: normal;
+		  	line-height: 1.5;
+		  	letter-spacing: normal;
+		  	text-align: left;
+		  	color: #d0d0d0;
+			margin-bottom: 50px;
+		}
+	}
+	.download_deco{
+		position: absolute;
+	    top: 0;
+	    right: 0;
+	    width: 60%;
+	    height: 700px;
+	    background-size: 49%,70%;
+	    background-position: 290px 152px,90px -40px;
+	    background-repeat: no-repeat;
+	    background-image: url('../../assets/images/04.png'), url('../../assets/images/03.png');
+	}
+}.download_appsMini{
+	width: 300px;
+    float: right;
+	.downloadApple{
+		display:block;
+	}
+	.download_apps_content_title{
+		font-family: AlfaSlabOne;
+	    font-size: 34px;
+	    font-weight: 400;
+	    font-style: normal;
+	    font-stretch: normal;
+	    line-height: 1.29;
+	    letter-spacing: 1.4px;
+	    text-align: center;
+	    color: #fff;
+	    padding-top: 270px;
+	    padding-bottom: 30px;
+	}
+	.download_apps_content_subtitle{
+		display: none;
+	}
+	.download_deco{
+		position: absolute;
+	    top: 0px;
+	    right: 0;
+	    width: 300px;
+	    height: 700px;
+	    background-size: 39%,50%;
+	    background-position: 130px 42px,50px -10px;
+	    background-repeat: no-repeat;
+	    background-image: url('../../assets/images/04.png'), url('../../assets/images/03.png');
+	}
+}.download_apps_single{
+	height:670px;
+	.download_apps_content_title{
+		padding-top: 210px !important;
+    	padding-bottom: 40px;
+	}
+}.download_subscription{
+	height:auto;
+	display:table;
+	width:100%;
+	height:100%;
+	div{
+		display: table-cell;
+	    width: 100%;
+	    text-align: center;
+	    vertical-align: middle;
+	    padding-bottom: 200px;
+	    padding-top: 100px;
+	    min-height: 150px;
+	}
+	.download_subscription_title{
+		display: block;
+	    margin: 0 auto;
+	    font-size: 50px;
+	    font-family: AlfaSlabOne;
+	    font-size: 80px;
+	    font-weight: 400;
+	    font-style: normal;
+	    font-stretch: normal;
+	    line-height: .95;
+	    letter-spacing: 1.6px;
+	    text-align: center;
+	    color: #fff;
+	    padding: 120px;
+	}
+	.download_subscription_container_pb{
+		display:inline;
+	}
+	.download_subscription_subtitle{
+		display:block;
+		width:50%;
+	    color: #fff;
+	    margin: 0 auto;
+	    margin-top: -90px;
+	    font-size: 26px;
+	    padding: 0;
+	}
+	.download_subscription_PB{
+		cursor: pointer;
+	    background: #fff;
+	    color: #444;
+	    width: 270px;
+	    border-radius: 50px;
+	    padding: 13px;
+	    font-family: Avenir;
+	    font-size: 20px;
+	    font-weight: 900;
+	    font-style: normal;
+	    font-stretch: normal;
+	    line-height: 1.85;
+	    letter-spacing: normal;
+	    color: #000;
+	    -webkit-transition: all .5s ease;
+	    -moz-transition: all .5s ease;
+	    transition: all .5s ease;
+	}.download_subscription_PB:hover{
+		background: #444;
+		color: #fff;
+	}
+	.slider-item-PB:hover{
+		opacity:.5;
+	}
+}
+@media screen and (max-width: 992px){
+	.download{
+		.spinner, .error{
+		}
+		.downloadAndroid{
+			display:block;
+		}
+		.download_deco{
+			position: absolute;
+		    top: 0;
+		    right: 0;
+		    width: 100%;
+		    height: 550px;
+		    background-size: 110px,172px;
+		    background-position: 95% 282px,85% 170px;
+		    background-repeat: no-repeat;
+		    background-image: url('../../assets/images/04.png'), url('../../assets/images/03.png');
+		}
+	}.download_apps{
+		height:300px;
+		.download_apps_content{
+			padding: 10px;
+			text-align:left;
+			position:absolute;
+			.download_apps_content{
+			}.download_apps_content_title{
+				padding-top:0;
+				text-align: left;
+			}.download_apps_content_subtitle{
+				width:100%;
+				margin-bottom: 19px;
+				text-align: left;
+			}
+		}
+	}.download_appsMini{
+		width: 300px;
+	    float: none;
+	    display: inline-block;
+	    margin-bottom: -70px;
+		.downloadApple{
+			display:block;
+		}
+		.download_apps_content_title{
+			font-family: AlfaSlabOne;
+		    font-size: 34px;
+		    font-weight: 400;
+		    font-style: normal;
+		    font-stretch: normal;
+		    line-height: 1.29;
+		    letter-spacing: 1.4px;
+		    text-align: center;
+		    color: #fff;
+		    padding-top: 270px;
+		    padding-bottom: 30px;
+		}
+		.download_apps_content_subtitle{
+			display: none;
+		}
+		.download_deco{
+			margin-right: 0;
+		    /* margin-left: 100px; */
+		    /* position: absolute; */
+		    /* top: 0; */
+		    /* right: 0; */
+		    /* width: 300px; */
+		    /* height: 700px; */
+		    /* background-size: 39%,50%; */
+		    background-position: 65% 60px, 45% -20px;
+		    /* background-repeat: no-repeat; */
+		    background-image: url('../../assets/images/04.png'), url('../../assets/images/03.png');
+		}
+	}.download_apps_single{
+		height:380px;
+		.download_apps_content_title{
+			padding-top: 0 !important;
+	    	padding-bottom: 40px;
+		}
+		.download_apps_content_subtitle{
+			margin-bottom: 39px !important;
+		}
+	}.download_subscription{
+		margin-top:100px;
+		div{
+			padding-bottom: 70px;
+    		padding-top: 110px;
+    		background-position: center center;
+		    background-size: cover;
+		    background-repeat: no-repeat;
+		    background-attachment: initial;
+		    background-origin: initial;
+		    background-clip: initial;
+		}
+		.download_subscription_title{
+			display: block;
+		    margin: 0 auto;
+		    font-size: 50px;
+		    font-family: AlfaSlabOne;
+		    font-size: 40px;
+		    font-weight: 400;
+		    font-style: normal;
+		    font-stretch: normal;
+		    line-height: .95;
+		    letter-spacing: 1.6px;
+		    text-align: center;
+		    color: #fff;
+		    padding: 10px;
+		}
+		.download_subscription_subtitle{
+			font-size: 18px;
+			width: 70%;
+			display: block;
+		    color: #fff;
+		    margin: 0 auto;
+		    margin-top: -50px;
+		    margin-bottom: -50px;
+		    font-size: 18px;
+		    padding: 0;
+		}
+		.download_subscription_PB{
+		}.download_subscription_PB:hover{
+		}
+		.slider-item-PB:hover{
+		}
+	}.download_deco{
+		top:80px;
+	}
+}

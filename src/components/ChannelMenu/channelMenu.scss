@@ -1,0 +1,59 @@
+.lateralChannelMenu{
+	position:absolute;
+	z-index:40000;
+}
+channelOptions, podcastOptions, episodeOptions{
+	.row{
+		position:relative;
+	    margin: 0;
+		padding:0;
+		.rot{
+			margin-top:10px;
+			width:50%;
+		}
+		.options{
+			position: absolute;
+	    	top: 0;
+	    	right: 0;
+	    	background: rgba(0,0,0,.6);
+	    	border-radius: 10px;
+	    	margin: 20px;
+			div{
+				cursor:pointer;
+				display:inline-block;
+				padding: 4px;
+				div{
+					img{
+						width:20px;
+					}
+				}
+				:hover{
+					opacity:.5;
+				}
+			}
+		}
+	}
+}
+episodePlayer{
+	.options{
+		position: absolute;
+    	top: 0;
+    	right: 0;
+    	background: rgba(0,0,0,.6);
+    	border-radius: 10px;
+    	margin: 20px;
+		div{
+			cursor:pointer;
+			display:inline-block;
+			padding: 4px;
+			div{
+				img{
+					width:20px;
+				}
+			}
+			:hover{
+				opacity:.5;
+			}
+		}
+	}
+}

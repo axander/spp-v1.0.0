@@ -1,0 +1,34 @@
+.ads{
+    position: relative;
+    height:270px;
+	div{
+		text-align: center;
+		width:100%;
+		height:100%;
+	}
+	#top{
+		display:block !important;
+	}
+	.spinner, .error{
+		position:absolute;
+		top:0;
+		display:table;
+		width:100%;
+		height:100%;
+	}
+	img{
+		width:100%;
+	}
+}.ads:hover{
+		opacity:.5;
+	}
+
+@media screen and (max-width: 992px){
+   .ads{
+   		height:130px;
+   		overflow: hidden;
+    	iframe{
+    		margin-bottom: 10px;
+    	}
+   }
+}

@@ -1,0 +1,73 @@
+$template-light-bg: #fff;
+$template-light-color: #444;
+
+$template-dark-bg: #000;
+$template-dark-color: #fff;
+
+.home_web{
+	width:100%;
+	min-height:100vh;
+	/*padding-top: 40px;*/
+	text-align: center;
+	background:#000;
+	/*.main{
+		max-width: 990px;
+	    width: 990px;
+	    display: inline-block;
+	    background:#000;
+	}*/
+}
+@media screen and (max-width: 990px){
+	[class*="col-"] {
+	    padding:0;
+	}
+   .home_web{
+		.main{
+		    width: 100%;
+		}
+	}
+}
+
+.home_web > div > div{
+	/*padding-right: 40px;
+    padding-left: 40px;*/
+	padding-top: 40px;
+}
+.home_web > div > div:first-child{
+	padding-top: 0;
+}
+.home_web h1{
+	text-align: center;
+}
+
+.home_web_light{
+	background: $template-light-bg;
+	color: $template-light-color;
+	
+}
+.home_web_dark{
+	/*background: $template-dark-bg;*/
+	color: $template-dark-color;
+}
+.home_web .section-container_web{
+	height: 400px;
+    /* margin-bottom: -110px; */
+    border: 0;
+    border-bottom: 4px solid #fff;
+}
+.home_web .section-container{
+	height: 400px;
+	margin-bottom: -110px;
+	border:0;
+	border-bottom:4px solid #fff;
+}
+.home_web .section-container_web .channel>div, .home_web .section-container_web .episode>div, .home_web .section-container_web .podcast>div{
+	background:#000;
+}
+.home_web .section-container_web .item{
+	padding: 10px;
+}
+.home_web .section-container_web .app{
+	background:#fff !important;
+}
+
